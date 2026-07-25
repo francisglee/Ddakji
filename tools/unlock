@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Restore write access to human-only prose for the author's writing session.
+set -euo pipefail
+cd "$(dirname "$0")/.."
+find works/*/drafts world/artifacts/texts blog/drafts -type f -name '*.md' \
+  -exec chmod u+w {} + 2>/dev/null || true
+echo "prose unlocked for writing. tools/lock when you're done."
