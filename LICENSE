@@ -1,0 +1,16 @@
+Copyright (c) 2026 Francis Lee. All rights reserved.
+
+This repository contains an unpublished literary work, its worldbuilding
+canon, research materials, and supporting tooling.
+
+No permission is granted to reproduce, distribute, publicly display,
+create derivative works from, or use any content of this repository —
+including for training machine-learning models — without the prior
+written consent of the copyright holder.
+
+Third-party materials referenced under assets/ retain their own rights;
+see the `media:` metadata block of the document referencing each asset.
+
+Interview materials under research/interviews/ are private source
+material governed by the consent terms recorded in each interview
+document. They are not licensed for any use.

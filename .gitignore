@@ -1,0 +1,21 @@
+# personal/local tool state — never shared (vendor adapters themselves ARE committed)
+.claude/settings.local.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+__marimo__/
+
+# web (self-contained ecosystem; lockfile IS committed)
+web/node_modules/
+web/.next/
+web/dist/
+web/out/
+
+# os junk
+.DS_Store
+Thumbs.db
+
+# NOTE: works/*/publish/, blog/publish/, works/*/archive/, and
+# assets/generated/ are release artifacts and stay COMMITTED by design.

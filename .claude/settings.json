@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(./works/*/drafts/**)",
+      "Write(./works/*/drafts/**)",
+      "Edit(./world/artifacts/texts/**)",
+      "Write(./world/artifacts/texts/**)",
+      "Edit(./blog/drafts/**)",
+      "Write(./blog/drafts/**)"
+    ]
+  }
+}

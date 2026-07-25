@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# Detection layer of the Access Policy (AGENTS.md).
+# 1) Blocks commits touching human-only prose unless signed DRAFTS=1.
+# 2) Enforces prose-commit purity: prose and non-prose paths never mix,
+#    so `git log --grep '^prose:'` stays a clean human-authorship ledger.
+# Vendor-agnostic: guards the repo, not a tool.
+set -euo pipefail
+
+PROTECTED='^(works/[^/]+/drafts/|world/artifacts/texts/|blog/drafts/)'
+
+staged=$(git diff --cached --name-only)
+prose=$(echo "$staged" | grep -E "$PROTECTED" || true)
+other=$(echo "$staged" | grep -Ev "$PROTECTED" || true)
+
+if [ -n "$prose" ]; then
+  if [ "${DRAFTS:-0}" != "1" ]; then
+    echo "pre-commit: commit touches human-only prose paths:" >&2
+    echo "$prose" | sed 's/^/  /' >&2
+    echo "" >&2
+    echo "If you (the human author) wrote these changes, sign the commit:" >&2
+    echo "  DRAFTS=1 git commit ..." >&2
+    echo "Agents: do not use the override. See AGENTS.md Access Policy." >&2
+    exit 1
+  fi
+  if [ -n "$other" ]; then
+    echo "pre-commit: prose commits must be pure (prose paths only)." >&2
+    echo "Also staged:" >&2
+    echo "$other" | sed 's/^/  /' >&2
+    echo "Commit prose separately with a 'prose:' message." >&2
+    exit 1
+  fi
+fi
