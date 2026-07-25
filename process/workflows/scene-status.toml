@@ -1,0 +1,37 @@
+# Scene status lifecycle — SINGLE SOURCE OF TRUTH.
+# AGENTS.md binds by reference; diagrams and lint are generated views.
+# Changes flow through an SDR (scope: process).
+
+name = "scene-status"
+states = ["sketch", "drafted", "revised", "locked", "published"]
+
+[[transition]]
+from = "sketch"
+to = "drafted"
+
+[[transition]]
+from = "drafted"
+to = "revised"
+gate = "coverage addressed"
+
+[[transition]]
+from = "revised"
+to = "locked"
+
+[[transition]]
+from = "locked"
+to = "revised"
+gate = "reopening SDR"
+
+[[transition]]
+from = "locked"
+to = "published"
+gate = "publish checklist (see publish-pipeline.toml)"
+
+# Editorial passes permitted per state (four-level taxonomy).
+[feedback]
+sketch = []
+drafted = ["developmental", "line"]
+revised = ["copy", "proof"]
+locked = []
+published = []   # changes via errata only

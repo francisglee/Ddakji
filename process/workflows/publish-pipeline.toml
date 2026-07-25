@@ -1,0 +1,50 @@
+# Publish pipeline — the single aperture to the public.
+# SINGLE SOURCE OF TRUTH; /publish walks this checklist in order.
+
+name = "publish-pipeline"
+stages = ["draft", "export", "checklist", "publish", "web"]
+
+[aperture]
+inputs = ["works/*/drafts/", "works/*/scenes/", "blog/drafts/"]
+tool = "tools/export.py (whitelist-only, fails closed, stamps copyright)"
+outputs = ["works/*/publish/", "blog/publish/"]
+consumer = "web/ (reads publish/ ONLY)"
+
+[[check]]
+id = "status"
+rule = "scene status is locked (publish: true implies locked)"
+
+[[check]]
+id = "buffer"
+rule = "serial buffer: scene N publishes only when N+2 is at least drafted"
+
+[[check]]
+id = "facts"
+rule = "no load-bearing claim with status unverified"
+
+[[check]]
+id = "consent"
+rule = "no interview material without quotable consent"
+
+[[check]]
+id = "rights"
+rule = "no reference-only or unlicensed assets"
+
+[[check]]
+id = "excerpts"
+rule = "blog posts quote works only from their already-public publish/ (or explicit author override)"
+
+[[check]]
+id = "coverage"
+rule = "outstanding editorial findings addressed or explicitly waived"
+
+[[check]]
+id = "diff"
+rule = "author reviews the export diff before it is committed"
+
+[[check]]
+id = "version"
+rule = "release is tagged and changelogged (/release)"
+
+[errata]
+rule = "published content is canon; post-publication changes ship as visible errata, never silent edits"

@@ -1,0 +1,29 @@
+# Idea lifecycle — how anything becomes part of the book or its world.
+# SINGLE SOURCE OF TRUTH; prose layers bind by reference.
+
+name = "idea-lifecycle"
+states = ["backlog", "decided", "outlined", "written", "shipped"]
+
+[[transition]]
+from = "backlog"
+to = "decided"
+via = "SDR in decisions/ (one independently reversible decision)"
+
+[[transition]]
+from = "decided"
+to = "outlined"
+via = "outline.md and/or scene doc updated; canon lands in world/"
+
+[[transition]]
+from = "outlined"
+to = "written"
+via = "author writes prose in drafts/ (human-only)"
+
+[[transition]]
+from = "written"
+to = "shipped"
+via = "version release: CHANGELOG entry + git tag"
+
+[notes]
+entry = "Stray ideas go to the nearest backlog (work, world, blog, process) — never directly into prose or canon."
+bugs = "Continuity and plot bugs enter the same lifecycle via work backlogs."
