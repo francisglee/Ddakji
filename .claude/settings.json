@@ -6,7 +6,9 @@
       "Edit(./world/artifacts/texts/**)",
       "Write(./world/artifacts/texts/**)",
       "Edit(./blog/drafts/**)",
-      "Write(./blog/drafts/**)"
+      "Write(./blog/drafts/**)",
+      "Edit(./journal/entries/**)",
+      "Write(./journal/entries/**)"
     ]
   }
 }

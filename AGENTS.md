@@ -31,6 +31,7 @@ mechanically; the policy binds regardless of tool.
 | `works/*/drafts/**` | **No agent writes, by any means including shell.** Read permitted. |
 | `world/artifacts/texts/**` | Same as drafts. |
 | `blog/drafts/**` | Same as drafts. |
+| `journal/entries/**` | Same as drafts — the idea-provenance ledger (DR-0015). Read permitted (`/mine` routes from it). |
 | `works/*/publish/**`, `blog/publish/**` | Written only by `tools/export.py` (via `/publish`). |
 | `works/*/archive/**` | Written only by `/release`. |
 | `web/` | Reads **only** `publish/` directories. Never `drafts/`, `scenes/`, `world/`, `research/`. |
@@ -137,6 +138,8 @@ Claude discovers them via `.claude/skills` symlink):
 - `decision` — draft a decision record from the current discussion;
   iterate with the author; commit only on approval; close out with
   commit hashes.
+- `mine` — route journal entries to backlogs and seeds; report to
+  `journal/mined/`; never writes entries.
 - `publish` — export a work or the blog through the checklist.
 - `release` — version milestone: changelog, tag, archive snapshot, retro.
 

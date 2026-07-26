@@ -6,7 +6,7 @@ model flow through a decision record.
 
 | Domain | Written by | AI contribution | Governed by |
 |---|---|---|---|
-| `works/*/drafts/`, `world/artifacts/texts/`, `blog/drafts/` | **francis only** (mechanically enforced) | none — suggestions via `editorial/`, applied by hand | [DR-0001](decisions/0001-authorship-boundary.md), [Access Policy](AGENTS.md) |
+| `works/*/drafts/`, `world/artifacts/texts/`, `blog/drafts/`, `journal/entries/` | **francis only** (mechanically enforced) | none — suggestions via `editorial/`; journal routing via `/mine` reports | [DR-0001](decisions/0001-authorship-boundary.md), [DR-0015](decisions/0015-journal-capture-layer.md), [Access Policy](AGENTS.md) |
 | `works/*/scenes/`, outlines, briefs, roadmaps | collaborative | planning, continuity annotation | [DR-0003](decisions/0003-fact-view-split.md) |
 | `world/` (canon) | collaborative | research synthesis; canon enters only via DR | [AGENTS.md rule 4](AGENTS.md), [DR-0003](decisions/0003-fact-view-split.md) |
 | `research/` | collaborative | AI-led sweeps; human interviews under consent | [AGENTS.md rule 10](AGENTS.md), [roles/researcher](process/roles/researcher.md) |

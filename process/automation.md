@@ -24,6 +24,7 @@ code (`tools/`), procedures in `skills/`, state machines in `workflows/`.
 | `/research <question>` | sourced note → `research/notes/`; re-review pass stamps `last-reviewed` | researcher axioms, fact statuses |
 | `/interview prep\|process` | testimony → `research/interviews/` | consent block first; publish checklist enforces `quotable` |
 | `/explore <territory>` | theses → `research/explorations/` | multi-sided, never concludes for the author; distillation gate |
+| `/mine [scope]` | journal routing → backlogs/seeds + report in `journal/mined/` | reads entries, never writes them; decisions flagged, not made |
 | `/decision` | decision record → `decisions/` | DR discipline (AGENTS.md) |
 | `/publish <target>` | `tools/export.py` → `publish/` | `workflows/publish-pipeline.toml` checks, author-reviewed diff |
 | `/release <work> <ver>` | changelog, git tag, `archive/` snapshot, retro scaffold → `process/retros/` | semver rules |

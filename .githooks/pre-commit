@@ -6,10 +6,11 @@
 # Vendor-agnostic: guards the repo, not a tool.
 set -euo pipefail
 
-PROTECTED='^(works/[^/]+/drafts/|world/artifacts/texts/|blog/drafts/)'
+PROTECTED='^(works/[^/]+/drafts/|world/artifacts/texts/|blog/drafts/|journal/entries/)'
 
 staged=$(git diff --cached --name-only)
-prose=$(echo "$staged" | grep -E "$PROTECTED" || true)
+# placeholders are not prose — structural .gitkeep files need no signature
+prose=$(echo "$staged" | grep -E "$PROTECTED" | grep -v '\.gitkeep$' || true)
 other=$(echo "$staged" | grep -Ev "$PROTECTED" || true)
 
 if [ -n "$prose" ]; then

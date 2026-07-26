@@ -41,5 +41,6 @@ via = "DR close-out: Commit ID cells recorded"
 
 [notes]
 entry = "Ideas enter as backlog entries — <domain>/backlog/NNNN-slug.md, referenced <domain>#NNNN (DR-0008). Stray ideas go to the nearest backlog, never directly into prose or canon."
+pre-intake = "journal/entries/ is legal pre-backlog capture (DR-0015): zero-structure human-only entries, routed into backlogs/seeds by /mine. In collab sessions the AI itself is the free-form entry point, routing live."
 tasks = "Plain tasks may go backlog -> done without a decision record; dropped is terminal from any pre-decided state."
 bugs = "Continuity and plot bugs enter the same lifecycle via work backlogs."

@@ -3,6 +3,6 @@
 # make all human-only prose read-only. Run after your writing session.
 set -euo pipefail
 cd "$(dirname "$0")/.."
-find works/*/drafts world/artifacts/texts blog/drafts -type f -name '*.md' \
+find works/*/drafts world/artifacts/texts blog/drafts journal/entries -type f -name '*.md' \
   -exec chmod a-w {} + 2>/dev/null || true
 echo "prose locked (read-only). tools/unlock before your next writing session."
