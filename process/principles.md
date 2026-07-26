@@ -7,7 +7,7 @@ The values of this project, at depth. Binding rules derived from these
 principles live in AGENTS.md and are cited here by name — never restated.
 Changes to this document flow through a DR (`scope: process`).
 
-## 1. The book is written by a human
+## 1. The book is written by a human [¹](#references)
 
 Every word of publishable prose — manuscript drafts, in-world artifact
 texts, blog posts — is authored by Francis Lee. This is an ethical
@@ -67,3 +67,16 @@ the public, and it fails closed (whitelist, checklist, human-reviewed
 diff). What readers have read is canon and is not silently rewritten —
 corrections are errata, visibly. Hence the **publish checklist**
 (rule 9) and serial discipline (rule 8).
+
+## References
+
+Authorities that inform these principles (DR-0014). They inform, never
+govern: the commitments are the author's; divergences are noted
+deliberately. Each entry arrives via a `process/reading/` note; changes
+they prompt go through a DR.
+
+1. **The Authors Guild — AI Best Practices for Authors** (upd.
+   2026-05-11) · [source](https://authorsguild.org/resource/ai-best-practices-for-authors/)
+   · [reading note](reading/authors-guild-ai-best-practices.md) —
+   informs the authorship boundary, disclosure stance, and verification
+   discipline; open proposals it prompted: process#0010.
