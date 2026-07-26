@@ -52,9 +52,9 @@ decision records containing the word are immutable and keep it
 ## Affected Files
 | File | Changes Made | Decision ID | Author | Commit ID |
 |---|---|---|---|---|
-| [AGENTS.md](../AGENTS.md) | rule 4 → *Canon authority*; bible → story universe / canon; fixes cross-line "an DR" artifact from the 0007 sweep | 0012-1 | claude-fable-5 | *pending* |
-| [README.md](../README.md) | table rows: story universe | 0012-1 | claude-fable-5 | *pending* |
-| [world/README.md](../world/README.md) | title + body: story universe / canon | 0012-1 | claude-fable-5 | *pending* |
-| [process/roles/dramaturg.md](../process/roles/dramaturg.md), [process/roles/researcher.md](../process/roles/researcher.md) | canon outranks / feeding the story universe | 0012-1 | claude-fable-5 | *pending* |
-| [templates/coverage.md](../templates/coverage.md) | contradictions vs canon | 0012-1 | claude-fable-5 | *pending* |
-| [process/README.md](../process/README.md) | roles-vs-skills table (rider) | 0012-1 | claude-fable-5 | *pending* |
+| [AGENTS.md](../AGENTS.md) | rule 4 → *Canon authority*; bible → story universe / canon; fixes cross-line "an DR" artifact from the 0007 sweep | 0012-1 | claude-fable-5 | 0f18421 |
+| [README.md](../README.md) | table rows: story universe | 0012-1 | claude-fable-5 | 0f18421 |
+| [world/README.md](../world/README.md) | title + body: story universe / canon | 0012-1 | claude-fable-5 | 0f18421 |
+| [process/roles/dramaturg.md](../process/roles/dramaturg.md), [process/roles/researcher.md](../process/roles/researcher.md) | canon outranks / feeding the story universe | 0012-1 | claude-fable-5 | 0f18421 |
+| [templates/coverage.md](../templates/coverage.md) | contradictions vs canon | 0012-1 | claude-fable-5 | 0f18421 |
+| [process/README.md](../process/README.md) | roles-vs-skills table (rider) | 0012-1 | claude-fable-5 | 0f18421 |
