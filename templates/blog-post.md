@@ -21,4 +21,4 @@ tags: []
 <!-- END POST -->
 
 ## Notes
-<!-- private: sources, SDR/retro references that seeded this post -->
+<!-- private: sources, DR/retro references that seeded this post -->

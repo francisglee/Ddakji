@@ -4,13 +4,13 @@ type: readme
 # world/ — the bible
 
 Decided canon only, impartial and multi-work. When a scene and the bible
-conflict, the bible wins until an SDR rules otherwise (AGENTS.md rule 4).
+conflict, the bible wins until a DR rules otherwise (AGENTS.md rule 4).
 
 **How canon enters:** an idea or research finding goes to `backlog.md`
-→ an SDR decides it → the entry lands here with `status: canon`.
+→ a DR decides it → the entry lands here with `status: canon`.
 Nothing is written here directly from a research session or a
 conversation. `status: proposed` marks drafts-of-canon awaiting their
-SDR.
+DR.
 
 | Folder | Holds (template) |
 |---|---|

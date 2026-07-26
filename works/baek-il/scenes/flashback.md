@@ -12,4 +12,4 @@ turns:
 publish: false
 ---
 ## Notes
-<!-- shorter scene; placement pending SDR (see backlog) -->
+<!-- shorter scene; placement pending DR (see backlog) -->

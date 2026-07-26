@@ -16,4 +16,4 @@ scene:                # slug of the paired scene doc
 <!-- END SCENE -->
 
 ## Evolution
-<!-- your authorial log: date — what changed and why; cross-ref SDRs -->
+<!-- your authorial log: date — what changed and why; cross-ref DRs -->

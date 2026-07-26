@@ -3,7 +3,7 @@ template: event
 target: world/events/
 ---
 <!-- Impartial, POV-free structural fact. One event may generate many
-     scenes. Canon enters via backlog → SDR. -->
+     scenes. Canon enters via backlog → DR. -->
 ---
 type: event
 title:

@@ -23,4 +23,4 @@ work: baek-il
 ## Relationship to other works
 Baek-il is the vertical slice / MVP of the Ddakji universe: what it
 proves (or breaks) about the world, voice, and pipeline feeds Ddakji's
-backlog before epic drafting begins (SDR-0006).
+backlog before epic drafting begins (DR-0006).

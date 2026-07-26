@@ -1,6 +1,6 @@
 # Scene status lifecycle — SINGLE SOURCE OF TRUTH.
 # AGENTS.md binds by reference; diagrams and lint are generated views.
-# Changes flow through an SDR (scope: process).
+# Changes flow through a DR (scope: process).
 
 name = "scene-status"
 states = ["sketch", "drafted", "revised", "locked", "published"]
@@ -21,7 +21,7 @@ to = "locked"
 [[transition]]
 from = "locked"
 to = "revised"
-gate = "reopening SDR"
+gate = "reopening DR"
 
 [[transition]]
 from = "locked"

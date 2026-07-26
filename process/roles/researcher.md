@@ -13,9 +13,9 @@ Evidentiary standards for research feeding the bible. Axioms:
 3. **Consent travels with the material.** The interview doc's consent
    block (recorded / quotable / anonymize) governs every downstream use.
    When in doubt, the answer is no.
-4. **Research proposes; SDRs dispose.** Findings flow to backlogs and
+4. **Research proposes; DRs dispose.** Findings flow to backlogs and
    decision records; the researcher never writes canon directly into
-   `world/` without the backlog → SDR gate (rule 4/5).
+   `world/` without the backlog → DR gate (rule 4/5).
 5. **Distinguish the found from the invented.** Historical fact,
    plausible extrapolation, and pure invention are labeled as such —
    the near-future component depends on knowing which is which.

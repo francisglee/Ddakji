@@ -1,11 +1,18 @@
 ---
-type: sdr
+type: decision-record
 number: 4
 scope: process
+kind: new
 status: accepted
-date: 2026-07-25
+amended-by: 0007 (0007-7, retrofit)
+date-created: 2026-07-25
+last-updated: 2026-07-25
 ---
 # 0004 — Versioning & release: semver per work, stable slugs, generated archives
+
+**Description:** Software-style versioning adapted to fiction — semver
+on works, git as history, generated draft archives, one decision log,
+categorized commits.
 
 ## Context
 The author wanted software-style versioning and browsable draft history
@@ -18,24 +25,27 @@ git.
   current?" ambiguity.
 - **Hand-maintained snapshot copies** — rejected: drift.
 - **Two decision logs (process vs story)** — rejected: two numbering
-  sequences make SDR references ambiguous; `scope:` frontmatter is the
-  separation (taxonomy in metadata).
+  sequences make record references ambiguous; `scope:` frontmatter is
+  the separation (taxonomy in metadata).
 
-## Decision
-- Semver attaches to **works**, not scenes: MAJOR structural break ·
-  MINOR new/rewritten scenes · PATCH line fixes. Tags `<work>/vX.Y.Z`.
-  `1.0.0` = submission-ready.
-- Working drafts keep stable slug names; `/release` snapshots drafts
-  into `works/<work>/archive/vX.Y.Z/` (generated, browsable) alongside
-  changelog entry, tag, and retro scaffold.
-- Scene *maturity* is a status field (`scene-status.toml`); scene
-  *history* is git; scene *rationale* is SDRs.
-- One decision log, one sequence, `scope:` field.
-- Commit taxonomy: every message starts `governance:` `process:`
-  `machinery:` `world:` `works:` or `prose:`; `prose:` commits are pure
-  and DRAFTS=1-signed (hook-enforced) — the human-authorship ledger.
+## Decisions
+
+| Decision ID | Decision | Description | Backlog ID |
+|---|---|---|---|
+| 0004-1 | Semver per work | MAJOR structural break · MINOR new/rewritten scenes · PATCH line fixes; tags `<work>/vX.Y.Z`; 1.0.0 = submission-ready | — |
+| 0004-2 | Stable slugs + generated archives | Working drafts keep stable names; `/release` snapshots to `archive/vX.Y.Z/` | — |
+| 0004-3 | Three separations | Scene maturity = status field; history = git; rationale = decision records | — |
+| 0004-4 | One decision log | Single sequence; `scope:` field separates domains | — |
+| 0004-5 | Commit taxonomy | Categorized commit prefixes; `prose:` commits pure and DRAFTS=1-signed — the human-authorship ledger. *Category `machinery:` renamed `infrastructure:` by 0007-7.* | — |
 
 ## Consequences
 `main` always releasable; branches only for experiments and risky
 tooling/enforcement changes. CHANGELOG per work records *what* shipped;
-SDRs record *why*; retros record *how it went*.
+decision records the *why*; retros the *how it went*.
+
+## Affected Files
+| File | Changes Made | Decision ID | Commit ID |
+|---|---|---|---|
+| [AGENTS.md](../AGENTS.md) | semver rule, conventions, commit taxonomy | 0004-1, 3 – 5 | a079fc1 |
+| [skills/release/SKILL.md](../skills/release/SKILL.md) | changelog, tag, archive snapshot procedure | 0004-1, 0004-2 | 793fb35 |
+| [works/baek-il/CHANGELOG.md](../works/baek-il/CHANGELOG.md), [ROADMAP.md](../works/baek-il/ROADMAP.md) (both works) | per-work version artifacts | 0004-1 | 6e0aecf |

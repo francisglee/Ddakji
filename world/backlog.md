@@ -4,7 +4,7 @@ scope: world
 ---
 # World backlog
 
-Open canon questions awaiting decision (backlog → SDR → canon).
+Open canon questions awaiting decision (backlog → DR → canon).
 
 - [ ] The ddakji game as motif: how it recurs across generations —
   candidate for the first `world/motifs/` entry.

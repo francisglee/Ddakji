@@ -6,7 +6,7 @@ type: readme
 The project's initial pitch and the **vertical slice** of the Ddakji
 universe: it tests the world, the voice, and this entire pipeline
 (draft → coverage → revision → lock → export → publish) before the epic
-commits (SDR-0006). Two scenes: a main narrative and a shorter flashback.
+commits (DR-0006). Two scenes: a main narrative and a shorter flashback.
 
 **Status:** scaffolded; scenes at `sketch`; nothing drafted yet.
 

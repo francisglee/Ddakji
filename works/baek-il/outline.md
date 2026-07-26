@@ -9,7 +9,7 @@ filenames. Scene slugs reference `scenes/<slug>.md` ↔ `drafts/<slug>.md`.
 
 ## Assembly
 
-1. `main-narrative` <!-- flashback placement pending SDR (see backlog) -->
+1. `main-narrative` <!-- flashback placement pending DR (see backlog) -->
 2. `flashback`
 
 ## Notes

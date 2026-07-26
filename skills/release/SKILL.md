@@ -11,7 +11,7 @@ Procedure:
    change — MAJOR structural break / MINOR new or rewritten scenes /
    PATCH line fixes. Challenge a mismatch before proceeding.
 2. Update `works/<work>/CHANGELOG.md`: new `## vX.Y.Z — <date>` section
-   summarizing what shipped (keep-a-changelog style), citing SDRs for
+   summarizing what shipped (keep-a-changelog style), citing DRs for
    the why.
 3. Snapshot: copy `works/<work>/drafts/*` to
    `works/<work>/archive/vX.Y.Z/` (generated path — /release is its

@@ -19,7 +19,7 @@ Each statement lives in exactly one layer (the Layering Rule, AGENTS.md):
 
 Prose layers cite by reference and never restate. Diagrams
 (`assets/generated/`) and lint are generated views of the workflow data.
-Cross-layer changes flow through one SDR (`scope: process`).
+Cross-layer changes flow through one DR (`scope: process`).
 
 ## Contents
 

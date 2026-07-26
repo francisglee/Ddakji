@@ -21,9 +21,9 @@ in [AGENTS.md](AGENTS.md), with the reasoning in
 | `works/` | The stories: brief, roadmap, outline, scene specs, prose drafts, editorial, published exports |
 | `world/` | The bible: decided canon — events, characters, factions, locations, technology, motifs, artifacts |
 | `research/` | Sourced research and interviews feeding the bible |
-| `decisions/` | Story Decision Records — every significant choice, with alternatives and rationale |
+| `decisions/` | decision records — every significant choice, with alternatives and rationale |
 | `process/` | Why and how we work: principles, roles, workflow state machines, retros |
-| `skills/` | Agent procedures (coverage, research, sdr, publish, release) |
+| `skills/` | Agent procedures (coverage, research, decision, publish, release) |
 | `templates/` | The form catalog — every structured doc type |
 | `tools/` | Stdlib-only Python pipeline: export, stats, lock/unlock |
 | `notebooks/` | Marimo visualizations (timelines, graphs, workflow diagrams) |

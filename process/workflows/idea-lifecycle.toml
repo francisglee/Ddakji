@@ -7,7 +7,7 @@ states = ["backlog", "decided", "outlined", "written", "shipped"]
 [[transition]]
 from = "backlog"
 to = "decided"
-via = "SDR in decisions/ (one independently reversible decision)"
+via = "DR in decisions/ (one independently reversible decision)"
 
 [[transition]]
 from = "decided"

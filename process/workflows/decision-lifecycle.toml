@@ -1,0 +1,45 @@
+# Decision-record lifecycle — SINGLE SOURCE OF TRUTH (DR-0007).
+# The RECORD's states, distinct from the idea it decides
+# (idea-lifecycle.toml). Two kinds of state:
+#   stored  — frontmatter `status:` records the decision's VALIDITY only
+#   derived — the implementation's PHASE, computed from citing commits
+#             and Commit ID cells; NEVER written (stored copies of
+#             derivable facts drift)
+
+name = "decision-lifecycle"
+states = ["draft", "accepted", "in-progress", "closed", "amended", "superseded"]
+stored = ["accepted", "amended", "superseded"]
+derived = ["in-progress", "closed"]
+
+[[transition]]
+from = "draft"
+to = "accepted"
+gate = "explicit author approval; commit = acceptance (decisions/ contains no drafts)"
+
+[[transition]]
+from = "accepted"
+to = "in-progress"
+via = "derived: implementing commits citing DR-NNNN exist, Commit ID cells pending"
+
+[[transition]]
+from = "accepted"
+to = "closed"
+via = "derived: change set lands and close-out fills Commit ID cells in one sitting"
+
+[[transition]]
+from = "in-progress"
+to = "closed"
+via = "derived: close-out — all Commit ID cells filled"
+
+[[transition]]
+from = "closed"
+to = "amended"
+via = "amended-by: NNNN (NNNN-K) — partial supersession, addressable to a decision item"
+
+[[transition]]
+from = "closed"
+to = "superseded"
+via = "status: superseded-by NNNN — full supersession"
+
+[notes]
+legal-edits = "Exactly two stored mutations (supersede, amend), each updating last-updated; plus the close-out fill of Commit ID cells as part of the landing window."

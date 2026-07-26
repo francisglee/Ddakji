@@ -25,7 +25,7 @@ Procedure (vendor-neutral; any agent or human can follow it):
    no rewritten prose; prescriptions only if the author explicitly
    asked. Anchor first to the scene doc's stated purpose and turn.
 6. Copy/proof passes: list mechanical fixes as line-ref → issue →
-   suggested replacement. The author applies them by hand (SDR-0001).
+   suggested replacement. The author applies them by hand (DR-0001).
    Never edit the draft.
 7. Continuity or fact findings that exceed this scene's scope: file
    them in the work's `backlog.md` as continuity-bugs and note the

@@ -1,11 +1,17 @@
 ---
-type: sdr
+type: decision-record
 number: 3
 scope: process
+kind: new
 status: accepted
-date: 2026-07-25
+amended-by: 0007 (retrofit)
+date-created: 2026-07-25
+last-updated: 2026-07-25
 ---
 # 0003 — Fact/view split: events are facts, scenes are views, artifacts split spec/text
+
+**Description:** Impartial world facts separated from perspectival
+tellings, at every level — including the process itself.
 
 ## Context
 A multi-POV, multi-generational epic needs impartial structural truth
@@ -23,21 +29,26 @@ agent-maintainable.
 - **Per-medium folders for in-world texts** — rejected: taxonomy
   belongs in metadata (`medium:`), not tree structure.
 
-## Decision
-- `world/events/` holds impartial, POV-free facts (dates, participants,
-  constraints, sources). Canon enters via backlog → SDR.
-- Scene **docs** (`works/*/scenes/`, collaborative: pov, date,
-  characters, events, artifacts, status, purpose, turns, publish) pair
-  by slug with scene **drafts** (`works/*/drafts/`, human-only prose).
-  `outline.md` wires order; order never lives in filenames.
-- In-world artifacts split the same way: spec (`world/artifacts/`) vs
-  canonical text (`world/artifacts/texts/`, human-only), typed by
-  `medium:` frontmatter.
-- The principle applies to the system itself: `process/workflows/*.toml`
-  are facts; AGENTS.md prose, diagrams, and lint are views.
+## Decisions
+
+| Decision ID | Decision | Description | Backlog ID |
+|---|---|---|---|
+| 0003-1 | Events as facts | `world/events/` holds impartial POV-free facts; canon enters via backlog → DR | — |
+| 0003-2 | Scene spec/prose split | Scene docs (collaborative planning layer) pair by slug with drafts (human-only prose); order lives in `outline.md`, never filenames | — |
+| 0003-3 | Artifact spec/text split | In-world texts: spec collaborative, canonical text human-only; typed by `medium:` | — |
+| 0003-4 | Self-application | Process state machines live as data (`process/workflows/`); prose, diagrams, lint are views | — |
+| 0003-5 | Timeline as view | `world/timeline.md` is a chronology view over events; generated once events accumulate | — |
 
 ## Consequences
 Continuity becomes queryable: date lint, undramatized events,
 cross-scene contradiction, quote-checks against canonical artifact
 texts. Style guides layer: `world/style-guide.md` (cross-work
 conventions) + `works/<work>/style.md` (per-work aesthetics).
+
+## Affected Files
+| File | Changes Made | Decision ID | Commit ID |
+|---|---|---|---|
+| [world/events/](../world/events/), [world/artifacts/](../world/artifacts/), [world/timeline.md](../world/timeline.md) | events, artifact spec/text folders, timeline-as-view | 0003-1, 3, 5 | 076a897 |
+| [works/baek-il/scenes/](../works/baek-il/scenes/) + drafts/, [outline.md](../works/baek-il/outline.md) (both works) | spec/prose pairing, order-in-manifest | 0003-2 | 6e0aecf |
+| [process/workflows/](../process/workflows/) | state machines as data | 0003-4 | cb9de32 |
+| [templates/scene-doc.md](../templates/scene-doc.md), [templates/event.md](../templates/event.md), [templates/artifact.md](../templates/artifact.md) | the split encoded in forms | 0003-1 – 3 | cb9de32 |

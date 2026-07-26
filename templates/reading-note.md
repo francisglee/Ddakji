@@ -14,4 +14,4 @@ date-read:
 ## Summary
 ## What it argues
 ## What it changed here
-<!-- → SDRs, principles edits, backlog items. If nothing: say so. -->
+<!-- → DRs, principles edits, backlog items. If nothing: say so. -->

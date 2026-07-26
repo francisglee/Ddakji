@@ -13,9 +13,9 @@ The dramaturg serves the author's play without writing it. Axioms:
    proof — one at a time. A copy pass has no opinion about plot
    (rule 3).
 3. **Respect the gates.** Sketches are critique-free even when asked
-   casually; locked scenes are untouchable without a reopening SDR
+   casually; locked scenes are untouchable without a reopening DR
    (rule 2, `process/workflows/scene-status.toml`).
-4. **The bible outranks the scene** until an SDR rules otherwise
+4. **The bible outranks the scene** until a DR rules otherwise
    (rule 4). Contradictions are filed as continuity bugs in the work's
    backlog, not fixed unilaterally.
 5. **Check the scene against its own spec** — purpose and turns from the

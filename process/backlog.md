@@ -4,7 +4,7 @@ scope: process
 ---
 # Process backlog
 
-Open process questions. Fed by retros; resolved via SDR (`scope: process`).
+Open process questions. Fed by retros; resolved via DR (`scope: process`).
 
 - [ ] **Web deployment & extraction** — when deploying `web/`, hosting
   providers get the whole repo at build time (manuscript exposure).

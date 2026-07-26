@@ -12,7 +12,7 @@ code (`tools/`), procedures in `skills/`, state machines in `workflows/`.
 |---|---|---|
 | Prevention (hard) | `.claude/settings.json` deny rules | Claude Code |
 | Prevention (cheap) | `tools/lock` — read-only file bits on prose | any tool, kernel-level |
-| Prevention (strong, reserve) | read-only bind-mount container | any tool; build via SDR when adopting tool #2 |
+| Prevention (strong, reserve) | read-only bind-mount container | any tool; build via DR when adopting tool #2 |
 | Detection | `.githooks/pre-commit` — DRAFTS=1 signature + prose-commit purity | vendor-agnostic |
 | Recovery | git history | always |
 
@@ -22,7 +22,7 @@ code (`tools/`), procedures in `skills/`, state machines in `workflows/`.
 |---|---|---|
 | `/coverage <scene> [pass]` | editorial pass → `editorial/` | `workflows/scene-status.toml` feedback permissions |
 | `/research <question>` | sourced note → `research/` | researcher axioms, fact statuses |
-| `/sdr` | decision record → `decisions/` | SDR discipline (AGENTS.md) |
+| `/decision` | decision record → `decisions/` | DR discipline (AGENTS.md) |
 | `/publish <target>` | `tools/export.py` → `publish/` | `workflows/publish-pipeline.toml` checks, author-reviewed diff |
 | `/release <work> <ver>` | changelog, git tag, `archive/` snapshot, retro scaffold → `process/retros/` | semver rules |
 | `git commit` | `.githooks/pre-commit` | prose signature + purity |

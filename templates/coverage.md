@@ -21,7 +21,7 @@ against: purpose/turns from the scene doc; world + work style guides
 
 ## Suggested mechanical fixes
 <!-- copy/proof passes only: line ref → issue → suggested replacement.
-     Author applies by hand (SDR-0001). -->
+     Author applies by hand (DR-0001). -->
 
 ## Verdict
 <!-- ready to advance status? what blocks it? -->

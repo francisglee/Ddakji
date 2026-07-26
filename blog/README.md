@@ -12,8 +12,8 @@ fiction — hence root-level, not under `works/`.
 - **Excerpt rule** (publish checklist): posts quote the works only from
   their already-public `publish/` folders, or with explicit override at
   `/publish` — first-publication rights are not burned casually.
-- **Raw material:** `decisions/` (SDRs), `process/retros/`, and
+- **Raw material:** `decisions/` (DRs), `process/retros/`, and
   `process/reading/` are the idea mine — "why I split facts from
-  views" is a post sitting in an SDR. Park ideas in `backlog.md`.
+  views" is a post sitting in a DR. Park ideas in `backlog.md`.
 - Pipeline: draft → `editorial/` feedback → `/publish blog` →
   `publish/` (© stamped) → web.

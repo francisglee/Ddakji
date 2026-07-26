@@ -17,7 +17,7 @@ N+2 before publishing.
 ## Next → v0.2.0 — drafted
 - [ ] Draft main-narrative (author)
 - [ ] Draft flashback (author)
-- [ ] Decide flashback placement (→ SDR; see backlog)
+- [ ] Decide flashback placement (→ DR; see backlog)
 
 ## Later
 - v0.3.0 — revised: coverage passes addressed, scenes locked

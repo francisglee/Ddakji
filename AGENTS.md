@@ -19,7 +19,7 @@ Agents operate in three dimensions (ethic per role: `process/roles/`):
 
 Agents never draft, rewrite, paraphrase, or "improve" manuscript prose —
 including when asked casually. Mechanical fixes are delivered as suggested
-diffs in `editorial/`; the author applies them by hand (SDR-0001).
+diffs in `editorial/`; the author applies them by hand (DR-0001).
 
 ## Access Policy
 
@@ -49,33 +49,33 @@ Each statement lives in exactly **one** layer:
 1. **Why** — `process/principles.md`, `process/roles/` (values, at depth)
 2. **What** — this file (terse, binding; cites other layers by reference)
 3. **How** — `skills/`, `tools/` (procedures and code)
-4. **When / why-then** — `decisions/` (SDRs: point-in-time decisions)
+4. **When / why-then** — `decisions/` (DRs: point-in-time decisions)
 5. **State machines** — `process/workflows/*.toml` (enumerable process
    structures as data; prose binds by reference; diagrams and lint are
    generated views)
 
-Cross-layer changes flow through one SDR (`scope: process`) updating all
-affected layers together. Template changes are process changes → SDR.
+Cross-layer changes flow through one DR (`scope: process`) updating all
+affected layers together. Template changes are process changes → DR.
 
 ## Rules
 
-1. **Workshop ethic** (SDR-0005). Feedback describes *reader experience*
+1. **Workshop ethic** (DR-0005). Feedback describes *reader experience*
    and diagnoses; prescriptions only on explicit request; replacement
    prose never.
 2. **Status gates** — per `process/workflows/scene-status.toml`. In brief:
    `sketch` receives no feedback at all; `drafted` may receive
    developmental/line passes; `revised` may receive copy/proof passes;
-   `locked` changes only via a reopening SDR; published content changes
+   `locked` changes only via a reopening DR; published content changes
    only via errata.
 3. **Four-level edits.** Every editorial pass declares itself
    developmental, line, copy, or proof — and stays in scope.
 4. **Bible authority.** `world/` holds decided canon only. Canon enters
-   via backlog → SDR. On conflict, the bible outranks any scene until an
-   SDR rules otherwise.
+   via backlog → DR. On conflict, the bible outranks any scene until an
+   DR rules otherwise.
 5. **Idea lifecycle** — per `process/workflows/idea-lifecycle.toml`:
-   backlog → SDR → outline → scene → CHANGELOG. Stray ideas go to the
+   backlog → DR → outline → scene → CHANGELOG. Stray ideas go to the
    nearest backlog, never into prose or canon directly.
-6. **Semver per work** (SDR-0004). MAJOR structural break · MINOR new or
+6. **Semver per work** (DR-0004). MAJOR structural break · MINOR new or
    rewritten scenes · PATCH line fixes. Git tags `<work>/vX.Y.Z`.
 7. **WIP limit.** At most 3 scenes per work in `drafted` awaiting revision.
 8. **Serial buffer.** Publish scene N only when scene N+2 is at least
@@ -95,12 +95,24 @@ affected layers together. Template changes are process changes → SDR.
 12. **Retros.** Each `/release` scaffolds a retro in `process/retros/`;
     findings feed `process/backlog.md`. The process prunes itself.
 
-## SDR discipline
+## Decision-record discipline
 
-One record per **independently reversible decision**. Plans live in scene
-docs and outlines, not SDRs. Records are immutable once accepted —
-superseded, never edited. Single log, single sequence; `scope:` field
-separates domains (never split into sub-logs).
+One record per **independently reversible decision**; facets itemized
+`NNNN-K` (facets must reverse together, else split). Plans live in
+scene docs and outlines, not records. Drafts live in the working tree —
+`decisions/` contains no drafts; committed = explicitly author-approved.
+Records are immutable; legal edits (each updating `last-updated`):
+`status: superseded-by NNNN` (full) and `amended-by: NNNN (NNNN-K)`
+(partial). `status:` records validity only; phase (in-progress, closed)
+is **derived** from citing commits and Commit ID cells, never stored
+(`process/workflows/decision-lifecycle.toml`). Every record carries a
+Description line, a Decisions table (Decision ID | Decision |
+Description | Backlog ID), and an Affected Files table (File | Changes
+Made | Decision ID | Commit ID) completed when the change lands and
+closed out with commit hashes. Implementing commits cite `DR-NNNN`.
+Single log, single sequence; `scope:` separates domains — `baek-il |
+ddakji | world | research | blog | process | infrastructure` (process =
+how we work; infrastructure = what we run).
 
 ## Workflow index
 
@@ -110,18 +122,24 @@ Claude discovers them via `.claude/skills` symlink):
 - `coverage` — editorial pass on a scene; status-gated, pass-scoped,
   report to `editorial/`.
 - `research` — investigate a question; sourced note to `research/`.
-- `sdr` — draft a decision record from the current discussion.
+- `decision` — draft a decision record from the current discussion;
+  iterate with the author; commit only on approval; close out with
+  commit hashes.
 - `publish` — export a work or the blog through the checklist.
 - `release` — version milestone: changelog, tag, archive snapshot, retro.
 
 ## Schema reference
 
-Every structured file carries `type:` frontmatter matching a template in
-`templates/` (each template declares its `target:` directory). Key types:
-scene-doc, draft, event, artifact, character-profile, voice, faction,
-motif, location, technology, research-note, interview, sdr, coverage,
-brief, retro, reading-note, blog-post. Consult the template before
-creating an instance.
+Every structured file carries `type:` frontmatter. Types are either
+**template-backed** — matching a template in `templates/` (each declares
+its `target:` directory); the enumerable registry is
+`grep '^template:' templates/*.md` — or **structural singletons**
+(readme, roadmap, changelog, outline, style, principles, role, etc.)
+with no template. Key template-backed types: scene-doc, draft, event,
+artifact, character-profile, voice, faction, motif, location,
+technology, research-note, interview, decision-record, coverage, brief,
+retro, reading-note, blog-post. Consult the template before creating an
+instance.
 
 ## Conventions
 
@@ -131,7 +149,7 @@ creating an instance.
 - **Commit categories** — every commit message starts with one of:
   `governance:` (policy, enforcement, LICENSE, AGENTS.md) ·
   `process:` (process/, decisions/, templates/) ·
-  `machinery:` (skills/, tools/, notebooks/, web/) ·
+  `infrastructure:` (skills/, tools/, notebooks/, web/) ·
   `world:` (world/, research/, assets/) ·
   `works:` (briefs, outlines, scene specs, editorial, roadmaps, blog
   non-prose) · `prose:` (human-only prose paths).

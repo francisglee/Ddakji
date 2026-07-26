@@ -5,7 +5,7 @@ work: ddakji
 # Roadmap — Ddakji
 
 ## Now
-- (dormant — Baek-il ships first; see SDR-0006)
+- (dormant — Baek-il ships first; see DR-0006)
 
 ## Next
 - [ ] Ingest Baek-il retro lessons into this backlog

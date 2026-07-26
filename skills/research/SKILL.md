@@ -20,7 +20,7 @@ Procedure:
    slug; record `{path, caption, source, license}` in the note's
    `media:` block; scraped material is `license: reference-only`.
 5. Cross-link: add `informs:` slugs; if findings suggest canon, add an
-   item to `world/backlog.md` (canon enters only via backlog → SDR —
+   item to `world/backlog.md` (canon enters only via backlog → DR —
    never write `world/` entries directly from research).
 6. Open questions that remain go in the note's Open questions section
    AND the appropriate backlog.

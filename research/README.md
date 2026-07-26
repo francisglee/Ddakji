@@ -10,7 +10,7 @@ process* lives in `process/reading/` instead.)
 **Epistemics** (AGENTS.md rule 10, `process/roles/researcher.md`):
 every claim carries `status: unverified | verified | disputed` plus
 sources, and is labeled historical fact / plausible extrapolation /
-invention. Findings feed canon only via `world/backlog.md` → SDR.
+invention. Findings feed canon only via `world/backlog.md` → DR.
 
 **Interviews** (`interviews/`, `templates/interview.md`): oral history
 from real people — family, friends, and others whose experience informs
