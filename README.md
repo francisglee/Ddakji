@@ -21,8 +21,8 @@ contribution model and contributor registry live in
 | Area | What it is |
 |---|---|
 | `works/` | The stories: brief, roadmap, outline, scene specs, prose drafts, editorial, published exports |
-| `world/` | The bible: decided canon — events, characters, factions, locations, technology, motifs, artifacts |
-| `research/` | Sourced research and interviews feeding the bible |
+| `world/` | The story universe: decided canon — events, characters, factions, locations, technology, motifs, themes, artifacts |
+| `research/` | Sourced research and interviews feeding the story universe |
 | `decisions/` | decision records — every significant choice, with alternatives and rationale |
 | `process/` | Why and how we work: principles, roles, workflow state machines, retros |
 | `skills/` | Agent procedures (coverage, research, decision, publish, release) |

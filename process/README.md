@@ -21,11 +21,28 @@ Prose layers cite by reference and never restate. Diagrams
 (`assets/generated/`) and lint are generated views of the workflow data.
 Cross-layer changes flow through one DR (`scope: process`).
 
+## Roles vs skills — conduct vs procedure
+
+| Question | → `roles/<role>.md` | → `skills/<name>/SKILL.md` |
+|---|---|---|
+| What kind of statement? | ethic, axiom, standard — *who you are while working* | steps, inputs/outputs, guards — *how a task runs* |
+| Holds regardless of task? | yes — binds across every activity of that role | no — scoped to one procedure |
+| Violating it means… | mis*conduct* (doing wrong) | mal*practice* (doing the task wrong) |
+| Changes when… | values evolve (rare, DR-worthy) | workflow evolves (often) |
+| Referenced by | many skills, AGENTS.md, ambient reasoning | invoked explicitly, one task at a time |
+
+The subtle case — an ethically-flavored *step* (e.g. "/interview:
+consent block first"): the step lives in the skill (it's sequenced);
+the principle it implements lives in the role. Skills cite roles, never
+restate them: the skill says *when* the principle bites, the role says
+*why* it always does. The same sentence appearing in both places is the
+smell that the principle belongs up, the timing down.
+
 ## Contents
 
 - `principles.md` — operating principles; source of the AI-disclosure statement
 - `roles/` — professional ethic per agent dimension
-- `workflows/` — scene status, idea lifecycle, publish pipeline (TOML)
+- `workflows/` — scene status, idea/decision/canon lifecycles, publish pipeline (TOML)
 - `automation.md` — map of what runs when, guarding what
 - `reading/` — annotated external materials on craft and AI authorship
 - `backlog/` — open process questions, one entry per file (fed by retros)

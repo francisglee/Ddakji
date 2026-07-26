@@ -14,7 +14,7 @@ research, worldbuilding, continuity supervision, and editorial feedback.
 Agents operate in three dimensions (ethic per role: `process/roles/`):
 
 - **Dramaturg / editorial** — feedback on the author's prose and structure.
-- **Researcher** — sourced research feeding the world bible.
+- **Researcher** — sourced research feeding the story universe.
 - **Automation** — doc upkeep, exports, stats, releases via `skills/`.
 
 Agents never draft, rewrite, paraphrase, or "improve" manuscript prose —
@@ -69,8 +69,8 @@ affected layers together. Template changes are process changes → DR.
    only via errata.
 3. **Four-level edits.** Every editorial pass declares itself
    developmental, line, copy, or proof — and stays in scope.
-4. **Bible authority.** `world/` holds decided canon only. Canon enters
-   via backlog → DR. On conflict, the bible outranks any scene until an
+4. **Canon authority.** `world/` holds decided canon only. Canon enters
+   via backlog → DR. On conflict, canon outranks any scene until a
    DR rules otherwise.
 5. **Idea lifecycle** — per `process/workflows/idea-lifecycle.toml`:
    backlog → DR → (story: outline → scene → CHANGELOG | non-story:

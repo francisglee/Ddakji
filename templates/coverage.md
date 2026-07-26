@@ -17,7 +17,7 @@ against: purpose/turns from the scene doc; world + work style guides
 <!-- observations only: what a reader feels, loses, trips over. No rewrites. -->
 
 ## Continuity & facts
-<!-- contradictions vs bible/events/voice guides; unverified load-bearing claims -->
+<!-- contradictions vs canon (events, voice guides, world entities); unverified load-bearing claims -->
 
 ## Suggested mechanical fixes
 <!-- copy/proof passes only: line ref → issue → suggested replacement.

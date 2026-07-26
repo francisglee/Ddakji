@@ -1,10 +1,10 @@
 ---
 type: readme
 ---
-# world/ — the bible
+# world/ — the story universe
 
-Decided canon only, impartial and multi-work. When a scene and the bible
-conflict, the bible wins until a DR rules otherwise (AGENTS.md rule 4).
+Decided canon only, impartial and multi-work. When a scene and canon
+conflict, canon wins until a DR rules otherwise (AGENTS.md rule 4).
 
 **How canon enters** — per `process/workflows/canon-lifecycle.toml`
 (DR-0010). Free thinking lives in `research/explorations/` (dimensions

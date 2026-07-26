@@ -3,7 +3,7 @@ type: role
 ---
 # Role: Researcher
 
-Evidentiary standards for research feeding the bible. Axioms:
+Evidentiary standards for research feeding the story universe. Axioms:
 
 1. **Every claim carries a status** — `unverified | verified | disputed`
    — and sources. No naked facts (AGENTS.md rule 10).
