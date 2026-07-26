@@ -104,13 +104,13 @@ only, which is what makes free exploration safe.
 ## Affected Files
 | File | Changes Made | Decision ID | Author | Commit ID |
 |---|---|---|---|---|
-| [templates/theme.md](../templates/theme.md) | new template — championed-thesis form, cites explorations | 0010-1, 0010-2 | claude-fable-5 | *pending* |
-| [templates/exploration.md](../templates/exploration.md) | new template — dimensions/theses, `explores:`/`informs:` | 0010-3 | claude-fable-5 | *pending* |
-| [world/themes/](../world/themes/), [research/explorations/](../research/explorations/) | new folders | 0010-1, 0010-3 | claude-fable-5 | *pending* |
-| [process/workflows/canon-lifecycle.toml](../process/workflows/canon-lifecycle.toml) | new: refinement flow as data, incl. distillation + entrypoints | 0010-4, 0010-5 | claude-fable-5 | *pending* |
-| [world/README.md](../world/README.md) | canon-entry prose binds to the TOML; themes row | 0010-5 | claude-fable-5 | *pending* |
-| [research/README.md](../research/README.md) | restructured: parallel per-type sections (notes / interviews / explorations / backlog), each with its epistemic mode and machinery | 0010-3, 0010-4, 0010-7 | claude-fable-5 | *pending* |
-| [templates/brief.md](../templates/brief.md) | Themes link-out convention | 0010-6 | claude-fable-5 | *pending* |
-| [templates/research-note.md](../templates/research-note.md), [research/notes/](../research/notes/), [skills/research/SKILL.md](../skills/research/SKILL.md) | target → `research/notes/`; folder added (no files to migrate); filing path updated | 0010-7 | claude-fable-5 | *pending* |
-| [skills/decision/SKILL.md](../skills/decision/SKILL.md) | canonization-DR Alternatives requirement for explored entities | 0010-4 | claude-fable-5 | *pending* |
-| [AGENTS.md](../AGENTS.md) | `theme`, `exploration` in schema key-types list | 0010-1, 0010-3 | claude-fable-5 | *pending* |
+| [templates/theme.md](../templates/theme.md) | new template — championed-thesis form, cites explorations | 0010-1, 0010-2 | claude-fable-5 | 42a812d |
+| [templates/exploration.md](../templates/exploration.md) | new template — dimensions/theses, `explores:`/`informs:` | 0010-3 | claude-fable-5 | 42a812d |
+| [world/themes/](../world/themes/), [research/explorations/](../research/explorations/) | new folders | 0010-1, 0010-3 | claude-fable-5 | 42a812d |
+| [process/workflows/canon-lifecycle.toml](../process/workflows/canon-lifecycle.toml) | new: refinement flow as data, incl. distillation + entrypoints | 0010-4, 0010-5 | claude-fable-5 | 42a812d |
+| [world/README.md](../world/README.md) | canon-entry prose binds to the TOML; themes row | 0010-5 | claude-fable-5 | 42a812d |
+| [research/README.md](../research/README.md) | restructured: parallel per-type sections (notes / interviews / explorations / backlog), each with its epistemic mode and machinery | 0010-3, 0010-4, 0010-7 | claude-fable-5 | 42a812d |
+| [templates/brief.md](../templates/brief.md) | Themes link-out convention | 0010-6 | claude-fable-5 | 42a812d |
+| [templates/research-note.md](../templates/research-note.md), [research/notes/](../research/notes/), [skills/research/SKILL.md](../skills/research/SKILL.md) | target → `research/notes/`; folder added (no files to migrate); filing path updated | 0010-7 | claude-fable-5 | 42a812d |
+| [skills/decision/SKILL.md](../skills/decision/SKILL.md) | canonization-DR Alternatives requirement for explored entities | 0010-4 | claude-fable-5 | 42a812d |
+| [AGENTS.md](../AGENTS.md) | `theme`, `exploration` in schema key-types list | 0010-1, 0010-3 | claude-fable-5 | 42a812d |
