@@ -102,10 +102,10 @@ present/near-future material whose truth moves under the story.
 ## Affected Files
 | File | Changes Made | Decision ID | Author | Commit ID |
 |---|---|---|---|---|
-| [skills/research/SKILL.md](../skills/research/SKILL.md) | rescoped to notes explicitly | 0011-1 | claude-fable-5 | *pending* |
-| [skills/interview/SKILL.md](../skills/interview/SKILL.md) | new — testimony processing under consent | 0011-1 | claude-fable-5 | *pending* |
-| [skills/explore/SKILL.md](../skills/explore/SKILL.md) | new — multi-sided exploration partner | 0011-1 | claude-fable-5 | *pending* |
-| [AGENTS.md](../AGENTS.md), [process/automation.md](../process/automation.md) | workflow index + skill table gain both | 0011-1 | claude-fable-5 | *pending* |
-| [templates/research-note.md](../templates/research-note.md), [templates/interview.md](../templates/interview.md), [templates/exploration.md](../templates/exploration.md) | `date-created:` added; research-note also gains `last-reviewed:`, `subjects:`, paper-style body; `informs:` comments allow backlog IDs on all three | 0011-3, 4, 6 – 8 | claude-fable-5 | *pending* |
-| [process/backlog/0008-staleness-report.md](../process/backlog/0008-staleness-report.md) | new entry — generated re-verification queue | 0011-5 | claude-fable-5 | *pending* |
-| [research/README.md](../research/README.md) | reworked: tables-first, linked, bin registry, coverage targets, territories, roles | 0011-2, 0011-6 | claude-fable-5 | *pending* |
+| [skills/research/SKILL.md](../skills/research/SKILL.md) | rescoped to notes explicitly | 0011-1 | claude-fable-5 | d2a5613 |
+| [skills/interview/SKILL.md](../skills/interview/SKILL.md) | new — testimony processing under consent | 0011-1 | claude-fable-5 | d2a5613 |
+| [skills/explore/SKILL.md](../skills/explore/SKILL.md) | new — multi-sided exploration partner | 0011-1 | claude-fable-5 | d2a5613 |
+| [AGENTS.md](../AGENTS.md), [process/automation.md](../process/automation.md) | workflow index + skill table gain both | 0011-1 | claude-fable-5 | d2a5613 |
+| [templates/research-note.md](../templates/research-note.md), [templates/interview.md](../templates/interview.md), [templates/exploration.md](../templates/exploration.md) | `date-created:` added; research-note also gains `last-reviewed:`, `subjects:`, paper-style body; `informs:` comments allow backlog IDs on all three | 0011-3, 4, 6 – 8 | claude-fable-5 | d2a5613 |
+| [process/backlog/0008-staleness-report.md](../process/backlog/0008-staleness-report.md) | new entry — generated re-verification queue | 0011-5 | claude-fable-5 | d2a5613 |
+| [research/README.md](../research/README.md) | reworked: tables-first, linked, bin registry, coverage targets, territories, roles | 0011-2, 0011-6 | claude-fable-5 | d2a5613 |
