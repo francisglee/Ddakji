@@ -38,12 +38,30 @@ restate them: the skill says *when* the principle bites, the role says
 *why* it always does. The same sentence appearing in both places is the
 smell that the principle belongs up, the timing down.
 
+## Interaction modes
+
+How the human and AI share a workflow (DR-0013). Each playbook declares
+which modes it supports:
+
+| Mode | Shape | AI acts |
+|---|---|---|
+| `solo` | human-only work — prose is solo by constitution | not at all, or only on later request |
+| `turn-based` | document-mediated: you edit files, then invoke with a pointer | only when invoked; responds by writing docs |
+| `collab` | live session: intent stated, AI drives | continuously, inside approval gates |
+
+Invocation rule: **AI acts only when invoked; an invocation carries a
+pointer (turn-based) or an intent (collab).** Playbooks
+(`playbooks/`) are the operator's manuals — human lane + handoffs only;
+skills are the AI lane; workflows are the states. A workflow is done
+when all three lanes exist.
+
 ## Contents
 
 - `principles.md` — operating principles; source of the AI-disclosure statement
 - `roles/` — professional ethic per agent dimension
 - `workflows/` — scene status, idea/decision/canon lifecycles, publish pipeline (TOML)
 - `automation.md` — map of what runs when, guarding what
+- `playbooks/` — operator's manuals, one per human job-to-be-done
 - `reading/` — annotated external materials on craft and AI authorship
 - `backlog/` — open process questions, one entry per file (fed by retros)
 - `retros/` — per-milestone retrospectives, scaffolded by `/release`

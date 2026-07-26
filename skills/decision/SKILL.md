@@ -35,8 +35,10 @@ Procedure (lifecycle data: `process/workflows/decision-lifecycle.toml`):
    only legal edits to accepted records; each updates `last-updated`,
    both files change in one commit.
 6. Process/infrastructure-scoped decisions: update every affected layer
-   (AGENTS.md, workflows TOML, templates, skills) in the same change
-   set — the Layering Rule. Implementing commits cite `DR-NNNN`.
+   (AGENTS.md, workflows TOML, templates, skills, playbooks) in the
+   same change set — the Layering Rule. A workflow change is done only
+   when all three lanes exist: states, AI lane, human lane (DR-0013).
+   Implementing commits cite `DR-NNNN`.
 7. **Close-out.** Immediately after implementation lands, fill the
    Commit ID cells (short hash, linked) and `last-updated` in a small
    follow-up commit. A record isn't closed until its cells are filled;

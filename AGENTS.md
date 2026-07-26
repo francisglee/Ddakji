@@ -150,8 +150,8 @@ its `target:` directory); the enumerable registry is
 with no template. Key template-backed types: scene-doc, draft, event,
 artifact, character-profile, voice, faction, motif, location,
 technology, theme, research-note, exploration, interview,
-decision-record, coverage, brief, retro, reading-note, blog-post.
-Consult the template before creating an instance.
+decision-record, coverage, brief, retro, reading-note, blog-post,
+playbook. Consult the template before creating an instance.
 
 ## Conventions
 
