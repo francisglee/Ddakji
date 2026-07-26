@@ -63,12 +63,12 @@ whether AI contribution could be quantified by token spend.
 ## Affected Files
 | File | Changes Made | Decision ID | Author | Commit ID |
 |---|---|---|---|---|
-| [journal/](../journal/) | README, `entries/`, `mined/` | 0015-1 | claude-fable-5 | *pending* |
-| [templates/journal-entry.md](../templates/journal-entry.md) | new template | 0015-2 | claude-fable-5 | *pending* |
-| [skills/mine/SKILL.md](../skills/mine/SKILL.md) | new skill | 0015-3 | claude-fable-5 | *pending* |
-| [process/playbooks/capture-freely.md](../process/playbooks/capture-freely.md) | new playbook (lands with/after DR-0013) | 0015-3 | claude-fable-5 | *pending* |
-| [.claude/settings.json](../.claude/settings.json), [.githooks/pre-commit](../.githooks/pre-commit), [tools/lock](../tools/lock), [tools/unlock](../tools/unlock) | journal/entries deny + guard + lock; hook exempts `.gitkeep` placeholders (not prose — discovered when the hook correctly blocked this record's own landing) | 0015-4 | claude-fable-5 | *pending* |
-| [AGENTS.md](../AGENTS.md), [CONTRIBUTING.md](../CONTRIBUTING.md) | Access Policy path, commit taxonomy, contribution row, workflow index | 0015-1, 3, 4 | claude-fable-5 | *pending* |
-| [process/workflows/idea-lifecycle.toml](../process/workflows/idea-lifecycle.toml) | journal pre-intake note | 0015-5 | claude-fable-5 | *pending* |
-| [process/automation.md](../process/automation.md) | `/mine` row in the skill table | 0015-3 | claude-fable-5 | *pending* |
-| [process/backlog/0009-token-usage-ledger.md](../process/backlog/0009-token-usage-ledger.md) | new entry — cost disclosure only | 0015-6 | claude-fable-5 | *pending* |
+| [journal/](../journal/) | README, `entries/`, `mined/` | 0015-1 | claude-fable-5 | ae108b3 |
+| [templates/journal-entry.md](../templates/journal-entry.md) | new template | 0015-2 | claude-fable-5 | ae108b3 |
+| [skills/mine/SKILL.md](../skills/mine/SKILL.md) | new skill | 0015-3 | claude-fable-5 | ae108b3 |
+| [process/playbooks/capture-freely.md](../process/playbooks/capture-freely.md) | new playbook (lands with/after DR-0013) | 0015-3 | claude-fable-5 | ae108b3 |
+| [.claude/settings.json](../.claude/settings.json), [.githooks/pre-commit](../.githooks/pre-commit), [tools/lock](../tools/lock), [tools/unlock](../tools/unlock) | journal/entries deny + guard + lock; hook exempts `.gitkeep` placeholders (not prose — discovered when the hook correctly blocked this record's own landing) | 0015-4 | claude-fable-5 | ae108b3 |
+| [AGENTS.md](../AGENTS.md), [CONTRIBUTING.md](../CONTRIBUTING.md) | Access Policy path, commit taxonomy, contribution row, workflow index | 0015-1, 3, 4 | claude-fable-5 | ae108b3 |
+| [process/workflows/idea-lifecycle.toml](../process/workflows/idea-lifecycle.toml) | journal pre-intake note | 0015-5 | claude-fable-5 | ae108b3 |
+| [process/automation.md](../process/automation.md) | `/mine` row in the skill table | 0015-3 | claude-fable-5 | ae108b3 |
+| [process/backlog/0009-token-usage-ledger.md](../process/backlog/0009-token-usage-ledger.md) | new entry — cost disclosure only | 0015-6 | claude-fable-5 | ae108b3 |
