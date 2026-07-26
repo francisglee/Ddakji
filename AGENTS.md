@@ -128,7 +128,12 @@ Claude discovers them via `.claude/skills` symlink):
 
 - `coverage` — editorial pass on a scene; status-gated, pass-scoped,
   report to `editorial/`.
-- `research` — investigate a question; sourced note to `research/`.
+- `research` — investigate a question → sourced note in
+  `research/notes/`; also the re-review curation pass.
+- `interview` — prep for, or process, testimony under consent →
+  `research/interviews/`.
+- `explore` — start/continue multi-sided thesis work →
+  `research/explorations/`; distillation only on author initiative.
 - `decision` — draft a decision record from the current discussion;
   iterate with the author; commit only on approval; close out with
   commit hashes.

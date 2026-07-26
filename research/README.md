@@ -1,43 +1,72 @@
 ---
 type: readme
 ---
-# research/ — sourced material feeding the bible
+# research/
 
-Story research: South Korean culture and history, near-future
-extrapolation grounding, thematic material. (Research about *craft and
-process* lives in `process/reading/` instead.) One folder per document
-type; each type has its own epistemic mode and machinery:
+Story research feeding [world/](../world/README.md). Craft and process
+reading lives in [process/reading/](../process/reading/) instead.
 
-**`notes/`** (`templates/research-note.md`) — **verifiable claims.**
-Every claim carries `status: unverified | verified | disputed` plus
-sources, and is labeled historical fact / plausible extrapolation /
-invention (AGENTS.md rule 10, `process/roles/researcher.md`). The
-publish checklist lints against unverified load-bearing claims.
-Findings feed canon only via `world/backlog/` → DR.
+## Types
 
-**`interviews/`** (`templates/interview.md`) — **testimony under
-consent.** Oral history from real people — family, friends, and others
-whose experience informs the story. The consent block (recorded /
-quotable / anonymize) governs all downstream use and is checked
-mechanically at publish. Testimony corroborates but never verifies by
-itself: claims sourced only to an interview stay `unverified`. Raw
-recordings beyond a few MB live outside the repo, linked from the doc;
-the transcript here is the durable artifact.
+| Folder | Holds | Epistemics | Template | Skill |
+|---|---|---|---|---|
+| `notes/` | verifiable claims | `status: unverified \| verified \| disputed`; sources required; `last-reviewed` horizon | [research-note](../templates/research-note.md) | `/research` |
+| `interviews/` | testimony from real people | consent block governs all use; corroborates, never verifies alone | [interview](../templates/interview.md) | `/interview` |
+| `explorations/` | dimensions & theses for candidate world entities | positions, argued multi-sided; nothing binds | [exploration](../templates/exploration.md) | `/explore` |
+| `backlog/` | research work to do | intake — `research#NNNN` | [backlog-item](../templates/backlog-item.md) | — |
 
-**`explorations/`** (`templates/exploration.md`, DR-0010) — **positions
-to be argued.** Free thinking space around candidate world entities:
-dimensions and theses argued from multiple sides, typed by `explores:`
-(theme, character, technology…). Not claims — nothing here carries
-verification status, and nothing here binds. Distillation — the author
-choosing which theses to champion — creates the `world/` entry, which
-cites its explorations; `informs:` is backfilled here. The roads not
-taken stay on record.
+Canon entry: [canon-lifecycle.toml](../process/workflows/canon-lifecycle.toml)
+— findings → [world/backlog/](../world/backlog/) → DR, or exploration →
+distillation → `proposed` → DR. Nothing lands as canon directly.
 
-**`backlog/`** (`templates/backlog-item.md`, DR-0008) — **intake.**
-Research *work*: interviews to conduct, claims to verify, sources to
-find. *Canon* questions (what should be true in the world) belong in
-`world/backlog/` instead.
+## Notes — subject bins
 
-Media: reference images go in `assets/`, recorded in the referencing
+Controlled vocabulary for the `subjects:` field (multi-valued; extend
+this table deliberately):
+
+| Bin | Scope |
+|---|---|
+| culture | customs, arts, food, daily life, games |
+| history | events, eras, collective memory |
+| demographics | population, family structure, migration, diaspora |
+| government-politics | state, policy, law, geopolitics |
+| economy | macro, labor, class, housing |
+| industries | specific sectors — shipping, tech, entertainment… |
+| climate | environment, climate futures, disasters |
+| religion | practice, institutions, syncretism |
+| social-issues | education, gender, generational conflict |
+| language | usage, dialect, romanization, naming |
+| technology-science | present capabilities and near-future trajectories |
+
+## Interviews — coverage targets
+
+Author-curated sampling frame (intent, not inventory — what testimony
+we seek):
+
+| Target | Why |
+|---|---|
+| family memory & 백일 traditions | anchors [baek-il#0002](../works/baek-il/backlog/0002-baek-il-meaning.md) |
+| generational / diaspora experience | the epic's spine |
+| *(extend as the story's needs emerge)* | |
+
+## Explorations — open territories
+
+Anchored to stable backlog IDs (intent, not inventory):
+
+| Territory | Anchor |
+|---|---|
+| inheritance, fate & the ddakji game | [world#0001](../world/backlog/0001-ddakji-motif.md) |
+| what 백일 anchors thematically | [baek-il#0002](../works/baek-il/backlog/0002-baek-il-meaning.md) |
+
+## Roles
+
+| Role | Applies to |
+|---|---|
+| [researcher](../process/roles/researcher.md) | all work here — evidence, consent, found-vs-invented labeling |
+| [dramaturg](../process/roles/dramaturg.md) | explorations — thinking partner; conclusions are the author's |
+
+## Media
+
+Reference media → [assets/](../assets/), recorded in the referencing
 doc's `media:` block with source and license; scraped material defaults
 `reference-only` and never publishes.

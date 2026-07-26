@@ -13,8 +13,9 @@ target: research/explorations/
 type: exploration
 topic:
 explores:             # world entity type this could seed: theme | character | faction | technology | location | motif | event
+date-created:
 sources: []           # optional citations feeding the thinking
-informs: []           # world/ slugs seeded by this doc — filled at distillation
+informs: []           # world slugs seeded at distillation, and/or <domain>#NNNN backlog IDs
 ---
 ## Dimensions
 <!-- the axes of the question, e.g. for 'free will vs fate': agency vs

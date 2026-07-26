@@ -11,6 +11,7 @@ type: interview
 interviewee:          # name, or anonymized ID if requested
 relationship:
 date:                 # absolute date of interview
+date-created:         # when this doc was created (≠ interview date)
 medium:               # in person | call | written
 language:             # ko | en | mixed — flag translated quotes
 consent:
@@ -18,7 +19,7 @@ consent:
   quotable:           # yes | no | with-approval
   anonymize:          # yes | no
 topics: []
-informs: []           # events/, characters/, locations/ this feeds
+informs: []           # world slugs and/or <domain>#NNNN backlog IDs
 status: raw           # raw | summarized | integrated
 recording:            # external link if any
 ---

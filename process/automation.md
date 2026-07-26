@@ -21,7 +21,9 @@ code (`tools/`), procedures in `skills/`, state machines in `workflows/`.
 | Trigger | Runs | Guarded by |
 |---|---|---|
 | `/coverage <scene> [pass]` | editorial pass → `editorial/` | `workflows/scene-status.toml` feedback permissions |
-| `/research <question>` | sourced note → `research/` | researcher axioms, fact statuses |
+| `/research <question>` | sourced note → `research/notes/`; re-review pass stamps `last-reviewed` | researcher axioms, fact statuses |
+| `/interview prep\|process` | testimony → `research/interviews/` | consent block first; publish checklist enforces `quotable` |
+| `/explore <territory>` | theses → `research/explorations/` | multi-sided, never concludes for the author; distillation gate |
 | `/decision` | decision record → `decisions/` | DR discipline (AGENTS.md) |
 | `/publish <target>` | `tools/export.py` → `publish/` | `workflows/publish-pipeline.toml` checks, author-reviewed diff |
 | `/release <work> <ver>` | changelog, git tag, `archive/` snapshot, retro scaffold → `process/retros/` | semver rules |
