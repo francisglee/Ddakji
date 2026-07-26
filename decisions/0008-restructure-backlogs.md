@@ -92,8 +92,8 @@ documenting it are different objects with different lifecycles.
 ## Affected Files
 | File | Changes Made | Decision ID | Commit ID |
 |---|---|---|---|
-| [templates/backlog-item.md](../templates/backlog-item.md) | new template | 0008-2 | *pending* |
-| [works/baek-il/backlog/](../works/baek-il/backlog/), [works/ddakji/backlog/](../works/ddakji/backlog/), [world/backlog/](../world/backlog/), [blog/backlog/](../blog/backlog/), [process/backlog/](../process/backlog/) | migrate single files → per-item entries | 0008-1, 0008-2 | *pending* |
-| [research/backlog/](../research/backlog/) | new domain backlog (no migration); research/README.md notes the world-vs-research intake split | 0008-1, 0008-2 | *pending* |
-| [AGENTS.md](../AGENTS.md) | lifecycle wording: entries, IDs, resolved-by linkage | 0008-3, 0008-4 | *pending* |
-| [process/workflows/idea-lifecycle.toml](../process/workflows/idea-lifecycle.toml) | entry/ID wording; branch after `decided` for non-story ideas | 0008-3 – 0008-5 | *pending* |
+| [templates/backlog-item.md](../templates/backlog-item.md) | new template | 0008-2 | 67a1589 |
+| [works/baek-il/backlog/](../works/baek-il/backlog/), [works/ddakji/backlog/](../works/ddakji/backlog/), [world/backlog/](../world/backlog/), [blog/backlog/](../blog/backlog/), [process/backlog/](../process/backlog/) | migrate single files → per-item entries | 0008-1, 0008-2 | 67a1589 |
+| [research/backlog/](../research/backlog/) | new domain backlog (no migration); research/README.md notes the world-vs-research intake split | 0008-1, 0008-2 | 67a1589 |
+| [AGENTS.md](../AGENTS.md) | lifecycle wording: entries, IDs, resolved-by linkage | 0008-3, 0008-4 | 67a1589 |
+| [process/workflows/idea-lifecycle.toml](../process/workflows/idea-lifecycle.toml) | entry/ID wording; branch after `decided` for non-story ideas | 0008-3 – 0008-5 | 67a1589 |
