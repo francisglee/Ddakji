@@ -14,6 +14,7 @@ kind:                 # idea | question | plot-bug | continuity-bug | feedback |
 status: open          # open | decided | done | dropped
 priority:             # now | next | later
 created:
+source:               # who raised it — registry key from CONTRIBUTING.md, e.g. francis, claude-fable-5 (dramaturg)
 resolved-by:          # DR-NNNN when status: decided
 ---
 <!-- substance; link related entries (<domain>#NNNN) and records (DR-NNNN) -->

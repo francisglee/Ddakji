@@ -14,7 +14,9 @@ matter.
 All prose is written by the human author. AI agents assist with research,
 worldbuilding, continuity, and editorial feedback under the constitution
 in [AGENTS.md](AGENTS.md), with the reasoning in
-[process/principles.md](process/principles.md).
+[process/principles.md](process/principles.md). The per-domain
+contribution model and contributor registry live in
+[CONTRIBUTING.md](CONTRIBUTING.md).
 
 | Area | What it is |
 |---|---|

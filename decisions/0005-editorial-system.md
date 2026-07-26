@@ -41,9 +41,9 @@ touch prose (mechanical fixes per DR-0001 Option A). WIP limit (≤3
 drafted) and serial buffer (N+2) pace the pipeline the gates create.
 
 ## Affected Files
-| File | Changes Made | Decision ID | Commit ID |
-|---|---|---|---|
-| [AGENTS.md](../AGENTS.md) | workshop ethic, gates, taxonomy rules | 0005-1 – 3 | a079fc1 |
-| [process/workflows/scene-status.toml](../process/workflows/scene-status.toml) | gates as data | 0005-3 | cb9de32 |
-| [templates/coverage.md](../templates/coverage.md) | report form | 0005-4 | cb9de32 |
-| [skills/coverage/SKILL.md](../skills/coverage/SKILL.md), [process/roles/dramaturg.md](../process/roles/dramaturg.md) | pass procedure, role axioms | 0005-1, 2, 4 | 793fb35 / cb9de32 |
+| File | Changes Made | Decision ID | Author | Commit ID |
+|---|---|---|---|---|
+| [AGENTS.md](../AGENTS.md) | workshop ethic, gates, taxonomy rules | 0005-1 – 3 | claude-fable-5 | a079fc1 |
+| [process/workflows/scene-status.toml](../process/workflows/scene-status.toml) | gates as data | 0005-3 | claude-fable-5 | cb9de32 |
+| [templates/coverage.md](../templates/coverage.md) | report form | 0005-4 | claude-fable-5 | cb9de32 |
+| [skills/coverage/SKILL.md](../skills/coverage/SKILL.md), [process/roles/dramaturg.md](../process/roles/dramaturg.md) | pass procedure, role axioms | 0005-1, 2, 4 | claude-fable-5 | 793fb35 / cb9de32 |

@@ -44,8 +44,9 @@ last-updated:
 <!-- what changes; canon/scenes invalidated; follow-ups → backlog entries -->
 
 ## Affected Files
-<!-- actual changes, completed when the change lands; links; close out
-     with commit hashes after landing -->
-| File | Changes Made | Decision ID | Commit ID |
-|---|---|---|---|
-|  |  |  | *pending* |
+<!-- actual changes, completed when the change lands; links; Author =
+     registry key from CONTRIBUTING.md (who executed the work); close
+     out with commit hashes after landing -->
+| File | Changes Made | Decision ID | Author | Commit ID |
+|---|---|---|---|---|
+|  |  |  |  | *pending* |

@@ -52,10 +52,10 @@ to move out of prose files so agents could maintain it → the scene
 spec/prose split (DR-0003).
 
 ## Affected Files
-| File | Changes Made | Decision ID | Commit ID |
-|---|---|---|---|
-| [.claude/settings.json](../.claude/settings.json) | deny rules for the three prose paths | 0001-1 | a079fc1 |
-| [.githooks/pre-commit](../.githooks/pre-commit) | DRAFTS=1 signature + prose-commit purity | 0001-3 | a079fc1 |
-| [AGENTS.md](../AGENTS.md) | Access Policy, enforcement ladder, new-tool gate | 0001-1, 3, 4 | a079fc1 |
-| [tools/lock](../tools/lock), [tools/unlock](../tools/unlock) | kernel-level read-only bits | 0001-3 | 793fb35 |
-| [templates/draft.md](../templates/draft.md) | author-copied prose template | 0001-2 | cb9de32 |
+| File | Changes Made | Decision ID | Author | Commit ID |
+|---|---|---|---|---|
+| [.claude/settings.json](../.claude/settings.json) | deny rules for the three prose paths | 0001-1 | claude-fable-5 | a079fc1 |
+| [.githooks/pre-commit](../.githooks/pre-commit) | DRAFTS=1 signature + prose-commit purity | 0001-3 | claude-fable-5 | a079fc1 |
+| [AGENTS.md](../AGENTS.md) | Access Policy, enforcement ladder, new-tool gate | 0001-1, 3, 4 | claude-fable-5 | a079fc1 |
+| [tools/lock](../tools/lock), [tools/unlock](../tools/unlock) | kernel-level read-only bits | 0001-3 | claude-fable-5 | 793fb35 |
+| [templates/draft.md](../templates/draft.md) | author-copied prose template | 0001-2 | claude-fable-5 | cb9de32 |

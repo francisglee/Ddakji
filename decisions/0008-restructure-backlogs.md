@@ -4,6 +4,7 @@ number: 8
 scope: process
 kind: improvement
 status: accepted
+amended-by: 0009 (0008-2)
 date-created: 2026-07-25
 last-updated: 2026-07-25
 ---
@@ -90,10 +91,10 @@ documenting it are different objects with different lifecycles.
   (build when volume warrants; generated-only per 0008-3).
 
 ## Affected Files
-| File | Changes Made | Decision ID | Commit ID |
-|---|---|---|---|
-| [templates/backlog-item.md](../templates/backlog-item.md) | new template | 0008-2 | 67a1589 |
-| [works/baek-il/backlog/](../works/baek-il/backlog/), [works/ddakji/backlog/](../works/ddakji/backlog/), [world/backlog/](../world/backlog/), [blog/backlog/](../blog/backlog/), [process/backlog/](../process/backlog/) | migrate single files → per-item entries | 0008-1, 0008-2 | 67a1589 |
-| [research/backlog/](../research/backlog/) | new domain backlog (no migration); research/README.md notes the world-vs-research intake split | 0008-1, 0008-2 | 67a1589 |
-| [AGENTS.md](../AGENTS.md) | lifecycle wording: entries, IDs, resolved-by linkage | 0008-3, 0008-4 | 67a1589 |
-| [process/workflows/idea-lifecycle.toml](../process/workflows/idea-lifecycle.toml) | entry/ID wording; branch after `decided` for non-story ideas | 0008-3 – 0008-5 | 67a1589 |
+| File | Changes Made | Decision ID | Author | Commit ID |
+|---|---|---|---|---|
+| [templates/backlog-item.md](../templates/backlog-item.md) | new template | 0008-2 | claude-fable-5 | 67a1589 |
+| [works/baek-il/backlog/](../works/baek-il/backlog/), [works/ddakji/backlog/](../works/ddakji/backlog/), [world/backlog/](../world/backlog/), [blog/backlog/](../blog/backlog/), [process/backlog/](../process/backlog/) | migrate single files → per-item entries | 0008-1, 0008-2 | claude-fable-5 | 67a1589 |
+| [research/backlog/](../research/backlog/) | new domain backlog (no migration); research/README.md notes the world-vs-research intake split | 0008-1, 0008-2 | claude-fable-5 | 67a1589 |
+| [AGENTS.md](../AGENTS.md) | lifecycle wording: entries, IDs, resolved-by linkage | 0008-3, 0008-4 | claude-fable-5 | 67a1589 |
+| [process/workflows/idea-lifecycle.toml](../process/workflows/idea-lifecycle.toml) | entry/ID wording; branch after `decided` for non-story ideas | 0008-3 – 0008-5 | claude-fable-5 | 67a1589 |

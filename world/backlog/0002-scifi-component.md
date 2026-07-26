@@ -5,6 +5,7 @@ kind: question
 status: open
 priority: later
 created: 2026-07-25
+source: francis
 resolved-by:
 ---
 Define the epic's core sci-fi component: capability, limits, and

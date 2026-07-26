@@ -5,6 +5,7 @@ kind: question
 status: open
 priority: next
 created: 2026-07-25
+source: claude-fable-5 (dramaturg)
 resolved-by:
 ---
 The 100th-day celebration's role; feeds theme and possibly the

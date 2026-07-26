@@ -4,6 +4,7 @@ number: 7
 scope: process
 kind: improvement
 status: accepted
+amended-by: 0009 (0007-2)
 date-created: 2026-07-25
 last-updated: 2026-07-25
 ---
@@ -134,12 +135,12 @@ decision ledger meets the authorship ledger.
   remain as-is; conventions apply from this commit forward.
 
 ## Affected Files
-| File | Changes Made | Decision ID | Commit ID |
-|---|---|---|---|
-| [templates/decision-record.md](../templates/decision-record.md) | renamed from decision.md; Decisions table format, Affected Files section, new metadata, expanded scopes, Description line, legal-edits + close-out comments | 0007-1, 2, 5, 6, 8, 9, 12 | a5a10a7 |
-| [skills/decision/SKILL.md](../skills/decision/SKILL.md) | renamed from decision; approval lifecycle, itemization guardrail, amendment procedure, table-at-landing, DR-NNNN citation, close-out step, title conventions | 0007-1 – 4, 8 – 10, 12 | a5a10a7 |
-| [AGENTS.md](../AGENTS.md) | DR discipline update, scope list, DR-NNNN citation convention, `machinery:` → `infrastructure:`, DR→DR sweep, schema-reference clarification (`type:` is template-backed — enumerable from templates/ — or structural singleton) | 0007-3, 5 – 7, 10 | a5a10a7 |
-| [process/principles.md](../process/principles.md), [process/roles/](../process/roles/), [process/workflows/](../process/workflows/), READMEs, backlogs | DR→DR terminology sweep | 0007-10 | a5a10a7 |
-| [decisions/README.md](README.md) | new: conventions-only reader's guide | 0007-11 | a5a10a7 |
-| [process/workflows/decision-lifecycle.toml](../process/workflows/decision-lifecycle.toml) | new: record lifecycle as data — stored validity states vs derived phase states (in-progress, closed) | 0007-4, 0007-12 | a5a10a7 |
-| [0001](0001-authorship-boundary.md) [0002](0002-vendor-neutral-architecture.md) [0003](0003-fact-view-split.md) [0004](0004-versioning-and-release.md) [0005](0005-editorial-system.md) [0006](0006-baek-il-structure.md) | retrofit: date fields, `kind`, `amended-by: 0007`, Description, Decisions + Affected Files tables | 0007-5, 8, 9 | a5a10a7 |
+| File | Changes Made | Decision ID | Author | Commit ID |
+|---|---|---|---|---|
+| [templates/decision-record.md](../templates/decision-record.md) | renamed from decision.md; Decisions table format, Affected Files section, new metadata, expanded scopes, Description line, legal-edits + close-out comments | 0007-1, 2, 5, 6, 8, 9, 12 | claude-fable-5 | a5a10a7 |
+| [skills/decision/SKILL.md](../skills/decision/SKILL.md) | renamed from decision; approval lifecycle, itemization guardrail, amendment procedure, table-at-landing, DR-NNNN citation, close-out step, title conventions | 0007-1 – 4, 8 – 10, 12 | claude-fable-5 | a5a10a7 |
+| [AGENTS.md](../AGENTS.md) | DR discipline update, scope list, DR-NNNN citation convention, `machinery:` → `infrastructure:`, DR→DR sweep, schema-reference clarification (`type:` is template-backed — enumerable from templates/ — or structural singleton) | 0007-3, 5 – 7, 10 | claude-fable-5 | a5a10a7 |
+| [process/principles.md](../process/principles.md), [process/roles/](../process/roles/), [process/workflows/](../process/workflows/), READMEs, backlogs | DR→DR terminology sweep | 0007-10 | claude-fable-5 | a5a10a7 |
+| [decisions/README.md](README.md) | new: conventions-only reader's guide | 0007-11 | claude-fable-5 | a5a10a7 |
+| [process/workflows/decision-lifecycle.toml](../process/workflows/decision-lifecycle.toml) | new: record lifecycle as data — stored validity states vs derived phase states (in-progress, closed) | 0007-4, 0007-12 | claude-fable-5 | a5a10a7 |
+| [0001](0001-authorship-boundary.md) [0002](0002-vendor-neutral-architecture.md) [0003](0003-fact-view-split.md) [0004](0004-versioning-and-release.md) [0005](0005-editorial-system.md) [0006](0006-baek-il-structure.md) | retrofit: date fields, `kind`, `amended-by: 0007`, Description, Decisions + Affected Files tables | 0007-5, 8, 9 | claude-fable-5 | a5a10a7 |

@@ -5,6 +5,7 @@ kind: question
 status: open
 priority: next
 created: 2026-07-25
+source: francis
 resolved-by:
 ---
 Opening vs interleaved mid-narrative. Deliberately left open by

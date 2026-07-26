@@ -5,6 +5,7 @@ kind: idea
 status: open
 priority: next
 created: 2026-07-25
+source: francis
 resolved-by:
 ---
 How the ddakji game recurs across generations — candidate for the

@@ -112,8 +112,11 @@ is **derived** from citing commits and Commit ID cells, never stored
 (`process/workflows/decision-lifecycle.toml`). Every record carries a
 Description line, a Decisions table (Decision ID | Decision |
 Description | Backlog ID), and an Affected Files table (File | Changes
-Made | Decision ID | Commit ID) completed when the change lands and
-closed out with commit hashes. Implementing commits cite `DR-NNNN`.
+Made | Decision ID | Author | Commit ID) completed when the change
+lands and closed out with commit hashes. Author cells and backlog
+`source:` fields use registry keys defined in CONTRIBUTING.md
+(DR-0009: humans name+email; AI entries per the reproducibility
+guideline). Implementing commits cite `DR-NNNN`.
 Single log, single sequence; `scope:` separates domains — `baek-il |
 ddakji | world | research | blog | process | infrastructure` (process =
 how we work; infrastructure = what we run).

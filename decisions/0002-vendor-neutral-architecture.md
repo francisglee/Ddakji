@@ -46,9 +46,9 @@ vendor-agnostic floor. `tools/check-policy` drift lint deferred until a
 second adapter exists.
 
 ## Affected Files
-| File | Changes Made | Decision ID | Commit ID |
-|---|---|---|---|
-| [AGENTS.md](../AGENTS.md) | canonical constitution, Access Policy + registry | 0002-1, 0002-3 | a079fc1 |
-| [CLAUDE.md](../CLAUDE.md) | one-line importer + Claude-only notes | 0002-1 | a079fc1 |
-| [.claude/settings.json](../.claude/settings.json) | first committed adapter | 0002-3, 0002-4 | a079fc1 |
-| [skills/](../skills/) + `.claude/skills` symlink | root-canonical skills, discovery adapter | 0002-2 | 793fb35 |
+| File | Changes Made | Decision ID | Author | Commit ID |
+|---|---|---|---|---|
+| [AGENTS.md](../AGENTS.md) | canonical constitution, Access Policy + registry | 0002-1, 0002-3 | claude-fable-5 | a079fc1 |
+| [CLAUDE.md](../CLAUDE.md) | one-line importer + Claude-only notes | 0002-1 | claude-fable-5 | a079fc1 |
+| [.claude/settings.json](../.claude/settings.json) | first committed adapter | 0002-3, 0002-4 | claude-fable-5 | a079fc1 |
+| [skills/](../skills/) + `.claude/skills` symlink | root-canonical skills, discovery adapter | 0002-2 | claude-fable-5 | 793fb35 |

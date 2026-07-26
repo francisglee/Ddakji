@@ -46,9 +46,9 @@ texts. Style guides layer: `world/style-guide.md` (cross-work
 conventions) + `works/<work>/style.md` (per-work aesthetics).
 
 ## Affected Files
-| File | Changes Made | Decision ID | Commit ID |
-|---|---|---|---|
-| [world/events/](../world/events/), [world/artifacts/](../world/artifacts/), [world/timeline.md](../world/timeline.md) | events, artifact spec/text folders, timeline-as-view | 0003-1, 3, 5 | 076a897 |
-| [works/baek-il/scenes/](../works/baek-il/scenes/) + drafts/, [outline.md](../works/baek-il/outline.md) (both works) | spec/prose pairing, order-in-manifest | 0003-2 | 6e0aecf |
-| [process/workflows/](../process/workflows/) | state machines as data | 0003-4 | cb9de32 |
-| [templates/scene-doc.md](../templates/scene-doc.md), [templates/event.md](../templates/event.md), [templates/artifact.md](../templates/artifact.md) | the split encoded in forms | 0003-1 – 3 | cb9de32 |
+| File | Changes Made | Decision ID | Author | Commit ID |
+|---|---|---|---|---|
+| [world/events/](../world/events/), [world/artifacts/](../world/artifacts/), [world/timeline.md](../world/timeline.md) | events, artifact spec/text folders, timeline-as-view | 0003-1, 3, 5 | claude-fable-5 | 076a897 |
+| [works/baek-il/scenes/](../works/baek-il/scenes/) + drafts/, [outline.md](../works/baek-il/outline.md) (both works) | spec/prose pairing, order-in-manifest | 0003-2 | claude-fable-5 | 6e0aecf |
+| [process/workflows/](../process/workflows/) | state machines as data | 0003-4 | claude-fable-5 | cb9de32 |
+| [templates/scene-doc.md](../templates/scene-doc.md), [templates/event.md](../templates/event.md), [templates/artifact.md](../templates/artifact.md) | the split encoded in forms | 0003-1 – 3 | claude-fable-5 | cb9de32 |

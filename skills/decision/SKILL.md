@@ -21,7 +21,9 @@ Procedure (lifecycle data: `process/workflows/decision-lifecycle.toml`):
    entry a decision resolves, `—` for discussion-born decisions) with
    `### Details` only where a row can't carry the substance;
    Consequences; Affected Files (File | Changes Made | Decision ID |
-   Commit ID) — *actual* changes, `*pending*` commit cells.
+   Author | Commit ID) — *actual* changes, `*pending*` commit cells,
+   Author = registry key from CONTRIBUTING.md for whoever executed the
+   work (DR-0009).
 4. **The draft stays in the working tree.** Present it to the author;
    iterate on their feedback. Commit ONLY on explicit approval —
    `decisions/` contains no drafts.

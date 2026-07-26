@@ -5,6 +5,7 @@ kind: task
 status: open
 priority: later
 created: 2026-07-25
+source: claude-fable-5
 resolved-by:
 ---
 Switch `world/timeline.md` from manual to a generated view over

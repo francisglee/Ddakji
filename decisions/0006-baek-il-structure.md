@@ -44,8 +44,8 @@ Lessons from shipping Baek-il feed Ddakji's backlog and the process
 retros.
 
 ## Affected Files
-| File | Changes Made | Decision ID | Commit ID |
-|---|---|---|---|
-| [works/baek-il/scenes/main-narrative.md](../works/baek-il/scenes/main-narrative.md), [flashback.md](../works/baek-il/scenes/flashback.md) | two scene specs at sketch | 0006-1 | 6e0aecf |
-| [works/baek-il/outline.md](../works/baek-il/outline.md) | assembly wiring the two slugs | 0006-1 | 6e0aecf |
-| [works/baek-il/README.md](../works/baek-il/README.md), [brief.md](../works/baek-il/brief.md), [ROADMAP.md](../works/baek-il/ROADMAP.md) | vertical-slice role and pipeline mandate | 0006-2 | 6e0aecf |
+| File | Changes Made | Decision ID | Author | Commit ID |
+|---|---|---|---|---|
+| [works/baek-il/scenes/main-narrative.md](../works/baek-il/scenes/main-narrative.md), [flashback.md](../works/baek-il/scenes/flashback.md) | two scene specs at sketch | 0006-1 | claude-fable-5 | 6e0aecf |
+| [works/baek-il/outline.md](../works/baek-il/outline.md) | assembly wiring the two slugs | 0006-1 | claude-fable-5 | 6e0aecf |
+| [works/baek-il/README.md](../works/baek-il/README.md), [brief.md](../works/baek-il/brief.md), [ROADMAP.md](../works/baek-il/ROADMAP.md) | vertical-slice role and pipeline mandate | 0006-2 | claude-fable-5 | 6e0aecf |

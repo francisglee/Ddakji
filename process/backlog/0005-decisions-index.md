@@ -5,6 +5,7 @@ kind: task
 status: open
 priority: later
 created: 2026-07-25
+source: claude-fable-5
 resolved-by:
 ---
 Generated index of `decisions/` grouped by scope, with derived phase

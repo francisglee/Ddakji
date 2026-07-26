@@ -44,8 +44,8 @@ tooling/enforcement changes. CHANGELOG per work records *what* shipped;
 decision records the *why*; retros the *how it went*.
 
 ## Affected Files
-| File | Changes Made | Decision ID | Commit ID |
-|---|---|---|---|
-| [AGENTS.md](../AGENTS.md) | semver rule, conventions, commit taxonomy | 0004-1, 3 – 5 | a079fc1 |
-| [skills/release/SKILL.md](../skills/release/SKILL.md) | changelog, tag, archive snapshot procedure | 0004-1, 0004-2 | 793fb35 |
-| [works/baek-il/CHANGELOG.md](../works/baek-il/CHANGELOG.md), [ROADMAP.md](../works/baek-il/ROADMAP.md) (both works) | per-work version artifacts | 0004-1 | 6e0aecf |
+| File | Changes Made | Decision ID | Author | Commit ID |
+|---|---|---|---|---|
+| [AGENTS.md](../AGENTS.md) | semver rule, conventions, commit taxonomy | 0004-1, 3 – 5 | claude-fable-5 | a079fc1 |
+| [skills/release/SKILL.md](../skills/release/SKILL.md) | changelog, tag, archive snapshot procedure | 0004-1, 0004-2 | claude-fable-5 | 793fb35 |
+| [works/baek-il/CHANGELOG.md](../works/baek-il/CHANGELOG.md), [ROADMAP.md](../works/baek-il/ROADMAP.md) (both works) | per-work version artifacts | 0004-1 | claude-fable-5 | 6e0aecf |
