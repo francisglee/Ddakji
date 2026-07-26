@@ -105,9 +105,9 @@ fields, and the `prose:` commit ledger.
 ## Affected Files
 | File | Changes Made | Decision ID | Author | Commit ID |
 |---|---|---|---|---|
-| [templates/decision-record.md](../templates/decision-record.md), [templates/backlog-item.md](../templates/backlog-item.md) | Author column / `source:` field | 0009-1, 0009-2 | claude-fable-5 | *pending* |
-| [skills/decision/SKILL.md](../skills/decision/SKILL.md), [AGENTS.md](../AGENTS.md) | table spec + attribution vocabulary | 0009-1 – 3 | claude-fable-5 | *pending* |
-| [CONTRIBUTING.md](../CONTRIBUTING.md), [README.md](../README.md) | contribution model doc incl. Contributors registry; README link | 0009-5, 0009-7 | claude-fable-5 | *pending* |
-| [process/backlog/0006-effort-summary-generator.md](../process/backlog/0006-effort-summary-generator.md) | new entry for the generator | 0009-6 | claude-fable-5 | *pending* |
-| [0007](0007-improve-decision-process.md), [0008](0008-restructure-backlogs.md) | `amended-by` frontmatter; Author backfill | 0009-1, 0009-4 | claude-fable-5 | *pending* |
-| [0001](0001-authorship-boundary.md) – [0006](0006-baek-il-structure.md), all `*/backlog/` entries | Author / `source:` backfill | 0009-4 | claude-fable-5 | *pending* |
+| [templates/decision-record.md](../templates/decision-record.md), [templates/backlog-item.md](../templates/backlog-item.md) | Author column / `source:` field | 0009-1, 0009-2 | claude-fable-5 | 6c9c4f0 |
+| [skills/decision/SKILL.md](../skills/decision/SKILL.md), [AGENTS.md](../AGENTS.md) | table spec + attribution vocabulary | 0009-1 – 3 | claude-fable-5 | 6c9c4f0 |
+| [CONTRIBUTING.md](../CONTRIBUTING.md), [README.md](../README.md) | contribution model doc incl. Contributors registry; README link | 0009-5, 0009-7 | claude-fable-5 | 6c9c4f0 |
+| [process/backlog/0006-effort-summary-generator.md](../process/backlog/0006-effort-summary-generator.md) | new entry for the generator | 0009-6 | claude-fable-5 | 6c9c4f0 |
+| [0007](0007-improve-decision-process.md), [0008](0008-restructure-backlogs.md) | `amended-by` frontmatter; Author backfill | 0009-1, 0009-4 | claude-fable-5 | 6c9c4f0 |
+| [0001](0001-authorship-boundary.md) – [0006](0006-baek-il-structure.md), all `*/backlog/` entries | Author / `source:` backfill | 0009-4 | claude-fable-5 | 6c9c4f0 |
