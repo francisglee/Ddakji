@@ -63,8 +63,8 @@ honestly.
 ## Affected Files
 | File | Changes Made | Decision ID | Author | Commit ID |
 |---|---|---|---|---|
-| [templates/playbook.md](../templates/playbook.md) | new template | 0013-1 | claude-fable-5 | *pending* |
-| [process/playbooks/](../process/playbooks/) | seven playbooks per roster | 0013-1, 0013-5 | claude-fable-5 | *pending* |
-| [process/README.md](../process/README.md) | Interaction modes section; contents line | 0013-2 | claude-fable-5 | *pending* |
-| [AGENTS.md](../AGENTS.md) | `playbook` in schema key-types list | 0013-1 | claude-fable-5 | *pending* |
-| [skills/decision/SKILL.md](../skills/decision/SKILL.md) | playbooks join the layer enumeration in the change-set step | 0013-1 | claude-fable-5 | *pending* |
+| [templates/playbook.md](../templates/playbook.md) | new template | 0013-1 | claude-fable-5 | 1a97a31 |
+| [process/playbooks/](../process/playbooks/) | seven playbooks per roster | 0013-1, 0013-5 | claude-fable-5 | 1a97a31 |
+| [process/README.md](../process/README.md) | Interaction modes section; contents line | 0013-2 | claude-fable-5 | 1a97a31 |
+| [AGENTS.md](../AGENTS.md) | `playbook` in schema key-types list | 0013-1 | claude-fable-5 | 1a97a31 |
+| [skills/decision/SKILL.md](../skills/decision/SKILL.md) | playbooks join the layer enumeration in the change-set step | 0013-1 | claude-fable-5 | 1a97a31 |
