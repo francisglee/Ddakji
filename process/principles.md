@@ -80,3 +80,9 @@ they prompt go through a DR.
    · [reading note](reading/authors-guild-ai-best-practices.md) —
    informs the authorship boundary, disclosure stance, and verification
    discipline; open proposals it prompted: process#0010.
+2. **University of Chicago Law School — AI Strategy Statement**
+   (2026-07-09) · [source](https://www.law.uchicago.edu/news/ai-strategy-statement)
+   · [reading note](reading/uchicago-ai-strategy.md) — informs the
+   AI-resilient shape of the authorship boundary and the
+   effort-increasing feedback ethic (§2, §3): skill develops AI-free,
+   supervised AI layers around it.
