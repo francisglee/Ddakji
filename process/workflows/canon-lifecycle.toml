@@ -1,0 +1,47 @@
+# Canon lifecycle — SINGLE SOURCE OF TRUTH (DR-0010).
+# The refinement flow for ALL world entities (events, artifacts,
+# characters, factions, motifs, locations, technology, themes).
+# world/README.md binds by reference. Free thinking lives in
+# research/explorations/; world/ holds championed positions only.
+# Continuity lint checks scenes against canon entities only.
+
+name = "canon-lifecycle"
+states = ["backlog", "exploring", "proposed", "canon", "dropped"]
+
+[[transition]]
+from = "backlog"
+to = "exploring"
+via = "exploration doc created in research/explorations/ (explores: <entity-type>); free, collaborative, multi-thesis; nothing binds"
+
+[[transition]]
+from = "exploring"
+to = "proposed"
+gate = "distillation — the author intentionally selects which theses to champion; world entity created from its template citing explorations:; the exploration's informs: is backfilled"
+
+[[transition]]
+from = "backlog"
+to = "proposed"
+via = "direct creation for entities that need no exploration phase"
+
+[[transition]]
+from = "proposed"
+to = "canon"
+gate = "decision record, scope: world; scenes are bound thereafter; canonical content changes only via DR. REQUIRED for entities with explorations: the DR's Alternatives must engage the unchampioned theses, cited from the exploration, with why each was not chosen"
+
+[[transition]]
+from = "canon"
+to = "canon"
+via = "amendment via DR"
+
+[[transition]]
+from = "exploring"
+to = "dropped"
+via = "author decision; the exploration doc remains as record"
+
+[[transition]]
+from = "proposed"
+to = "dropped"
+via = "author decision"
+
+[notes]
+entrypoints = "world/ has multiple entry paths: world/backlog/ -> proposed (direct); world/backlog/ -> exploring -> proposed (contested ideas); and research-first — an exploration created directly from research work (interview, reading) with no backlog entry, since research intake is free. All paths converge at the same DR gate."

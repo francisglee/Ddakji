@@ -12,7 +12,7 @@ Procedure:
 2. Investigate. Distinguish and label: historical fact / plausible
    extrapolation / invention. Follow the researcher axioms
    (`process/roles/researcher.md`).
-3. File the note from `templates/research-note.md` into `research/`,
+3. File the note from `templates/research-note.md` into `research/notes/`,
    with `status:` per claim quality (`unverified` until sources
    corroborate; testimony alone never verifies — see rule 10) and full
    `sources:`.

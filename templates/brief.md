@@ -19,6 +19,8 @@ work:
 
 ## Promise to the reader
 ## Themes
+<!-- one line per theme, linking world/themes/ entries; exploration
+     lives there, never here (DR-0010) -->
 ## Audience
 ## Comps
 <!-- comparable titles: "X meets Y"; doubles as pitch material -->

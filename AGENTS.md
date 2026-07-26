@@ -144,9 +144,9 @@ its `target:` directory); the enumerable registry is
 (readme, roadmap, changelog, outline, style, principles, role, etc.)
 with no template. Key template-backed types: scene-doc, draft, event,
 artifact, character-profile, voice, faction, motif, location,
-technology, research-note, interview, decision-record, coverage, brief,
-retro, reading-note, blog-post. Consult the template before creating an
-instance.
+technology, theme, research-note, exploration, interview,
+decision-record, coverage, brief, retro, reading-note, blog-post.
+Consult the template before creating an instance.
 
 ## Conventions
 

@@ -1,6 +1,6 @@
 ---
 template: research-note
-target: research/
+target: research/notes/
 ---
 ---
 type: research-note

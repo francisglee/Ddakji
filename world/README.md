@@ -6,11 +6,16 @@ type: readme
 Decided canon only, impartial and multi-work. When a scene and the bible
 conflict, the bible wins until a DR rules otherwise (AGENTS.md rule 4).
 
-**How canon enters:** an idea or research finding becomes a `backlog/` entry
-→ a DR decides it → the entry lands here with `status: canon`.
-Nothing is written here directly from a research session or a
-conversation. `status: proposed` marks drafts-of-canon awaiting their
-DR.
+**How canon enters** — per `process/workflows/canon-lifecycle.toml`
+(DR-0010). Free thinking lives in `research/explorations/` (dimensions
+and theses, multi-position, nothing binding); **distillation** — the
+author's intentional selection of which theses to champion — creates a
+`proposed` entry here citing its explorations; the DR gate (scope:
+world) flips it to `canon`, after which scenes are bound and canonical
+content changes only via DR. Simple entities may go `backlog/` →
+`proposed` directly. Continuity lint checks scenes against `canon`
+entities only. Nothing lands as canon directly from a research session
+or conversation.
 
 | Folder | Holds (template) |
 |---|---|
@@ -19,6 +24,7 @@ DR.
 | `characters/<name>/` | `profile.md` + `voice.md` per character |
 | `factions/` | families, companies, movements (`faction`) |
 | `motifs/` | recurring images and their meaning (`motif`) |
+| `themes/` | what the recurrence *means* — claim/question, tensions, exploration (`theme`) |
 | `locations/` | places, with state-by-era (`location`) |
 | `technology/` | sci-fi canon: capability, limits, what it forbids (`technology`) |
 

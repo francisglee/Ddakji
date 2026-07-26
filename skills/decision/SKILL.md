@@ -17,7 +17,9 @@ Procedure (lifecycle data: `process/workflows/decision-lifecycle.toml`):
    (best-fit) and `kind:` (new | improvement | reversal | retirement).
 3. Draft from `templates/decision-record.md`: Description line; Context
    from the actual discussion; Alternatives genuinely considered with
-   why rejected; Decisions as the 4-column table (Backlog ID links the
+   why rejected — for a world-scope record canonizing an entity that
+   cites `explorations:`, the Alternatives MUST engage the exploration's
+   unchampioned theses (DR-0010); Decisions as the 4-column table (Backlog ID links the
    entry a decision resolves, `—` for discussion-born decisions) with
    `### Details` only where a row can't carry the substance;
    Consequences; Affected Files (File | Changes Made | Decision ID |
