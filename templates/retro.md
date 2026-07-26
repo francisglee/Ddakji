@@ -21,4 +21,4 @@ date:
 <!-- friction with no process answer -->
 
 ## Actions
-<!-- each → process/backlog.md, or straight to a DR if already clear -->
+<!-- each → process/backlog/, or straight to a DR if already clear -->

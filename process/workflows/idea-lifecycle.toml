@@ -1,14 +1,18 @@
 # Idea lifecycle — how anything becomes part of the book or its world.
 # SINGLE SOURCE OF TRUTH; prose layers bind by reference.
+# The IDEA's states — distinct from the record documenting it
+# (decision-lifecycle.toml). Branches after `decided`: story ideas are
+# realized as prose; non-story ideas as implemented change sets.
 
 name = "idea-lifecycle"
-states = ["backlog", "decided", "outlined", "written", "shipped"]
+states = ["backlog", "decided", "outlined", "written", "shipped", "implemented", "closed"]
 
 [[transition]]
 from = "backlog"
 to = "decided"
-via = "DR in decisions/ (one independently reversible decision)"
+via = "decision record citing the entry (Backlog ID column); entry gains status: decided + resolved-by: DR-NNNN"
 
+# story branch (scope: baek-il | ddakji | world canon)
 [[transition]]
 from = "decided"
 to = "outlined"
@@ -24,6 +28,18 @@ from = "written"
 to = "shipped"
 via = "version release: CHANGELOG entry + git tag"
 
+# non-story branch (scope: process | infrastructure | research | blog)
+[[transition]]
+from = "decided"
+to = "implemented"
+via = "change set lands citing DR-NNNN"
+
+[[transition]]
+from = "implemented"
+to = "closed"
+via = "DR close-out: Commit ID cells recorded"
+
 [notes]
-entry = "Stray ideas go to the nearest backlog (work, world, blog, process) — never directly into prose or canon."
+entry = "Ideas enter as backlog entries — <domain>/backlog/NNNN-slug.md, referenced <domain>#NNNN (DR-0008). Stray ideas go to the nearest backlog, never directly into prose or canon."
+tasks = "Plain tasks may go backlog -> done without a decision record; dropped is terminal from any pre-decided state."
 bugs = "Continuity and plot bugs enter the same lifecycle via work backlogs."

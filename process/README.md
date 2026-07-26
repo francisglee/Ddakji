@@ -28,5 +28,5 @@ Cross-layer changes flow through one DR (`scope: process`).
 - `workflows/` — scene status, idea lifecycle, publish pipeline (TOML)
 - `automation.md` — map of what runs when, guarding what
 - `reading/` — annotated external materials on craft and AI authorship
-- `backlog.md` — open process questions (fed by retros)
+- `backlog/` — open process questions, one entry per file (fed by retros)
 - `retros/` — per-milestone retrospectives, scaffolded by `/release`

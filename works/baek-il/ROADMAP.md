@@ -23,4 +23,4 @@ N+2 before publishing.
 - v0.3.0 — revised: coverage passes addressed, scenes locked
 - v1.0.0 — submission-ready; full pipeline proven end-to-end
 - Reader feedback loop (create `feedback/` when real feedback exists)
-- Standard manuscript format export (process/backlog.md)
+- Standard manuscript format export (process/backlog/)

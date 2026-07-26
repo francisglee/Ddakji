@@ -10,7 +10,12 @@ process* lives in `process/reading/` instead.)
 **Epistemics** (AGENTS.md rule 10, `process/roles/researcher.md`):
 every claim carries `status: unverified | verified | disputed` plus
 sources, and is labeled historical fact / plausible extrapolation /
-invention. Findings feed canon only via `world/backlog.md` → DR.
+invention. Findings feed canon only via `world/backlog/` → DR.
+
+**Intake split** (DR-0008): `research/backlog/` holds research *work* —
+interviews to conduct, claims to verify, sources to find. *Canon*
+questions (what should be true in the world) belong in
+`world/backlog/`.
 
 **Interviews** (`interviews/`, `templates/interview.md`): oral history
 from real people — family, friends, and others whose experience informs

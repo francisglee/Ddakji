@@ -28,5 +28,5 @@ Procedure (vendor-neutral; any agent or human can follow it):
    suggested replacement. The author applies them by hand (DR-0001).
    Never edit the draft.
 7. Continuity or fact findings that exceed this scene's scope: file
-   them in the work's `backlog.md` as continuity-bugs and note the
+   them in the work's `backlog/` (new entry) as continuity-bugs and note the
    cross-reference in the report.

@@ -14,6 +14,6 @@ fiction — hence root-level, not under `works/`.
   `/publish` — first-publication rights are not burned casually.
 - **Raw material:** `decisions/` (DRs), `process/retros/`, and
   `process/reading/` are the idea mine — "why I split facts from
-  views" is a post sitting in a DR. Park ideas in `backlog.md`.
+  views" is a post sitting in a DR. Park ideas as `backlog/` entries.
 - Pipeline: draft → `editorial/` feedback → `/publish blog` →
   `publish/` (© stamped) → web.

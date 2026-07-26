@@ -15,5 +15,5 @@ What runs when: `process/automation.md`. Mechanics: read the code.
 | `lock` / `unlock` | `tools/lock` · `tools/unlock` | Flip read-only file bits on all human-only prose paths (cheap kernel-level prevention). `unlock` before your writing session, `lock` after. |
 | `lib.py` | imported | Shared parsing: frontmatter, workflow TOML, repo walking. The one definition of "how our files parse" — notebooks import it too. |
 
-Reserve (not yet built, see `process/backlog.md`): `check-policy`
+Reserve (not yet built, see `process/backlog/`): `check-policy`
 adapter-drift lint — when a second agent tool is adopted.

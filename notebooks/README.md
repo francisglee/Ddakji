@@ -29,6 +29,6 @@ applies to `tools/`, not here.)
 |---|---|
 | `workflows.py` | state-machine diagrams from `process/workflows/` → `assets/generated/` |
 
-Planned (build when the data exists — see process/backlog.md): timeline
+Planned (build when the data exists — see process/backlog/): timeline
 from `world/events/`, character/faction relation graphs, event→scene
 coverage matrix, word-count burndown from git history.

@@ -73,8 +73,12 @@ affected layers together. Template changes are process changes → DR.
    via backlog → DR. On conflict, the bible outranks any scene until an
    DR rules otherwise.
 5. **Idea lifecycle** — per `process/workflows/idea-lifecycle.toml`:
-   backlog → DR → outline → scene → CHANGELOG. Stray ideas go to the
-   nearest backlog, never into prose or canon directly.
+   backlog → DR → (story: outline → scene → CHANGELOG | non-story:
+   implemented → closed). Backlogs are folders of one-file-per-item
+   entries — `<domain>/backlog/NNNN-slug.md`, referenced
+   `<domain>#NNNN`, resolved via `resolved-by: DR-NNNN` (DR-0008).
+   Stray ideas become entries in the nearest backlog, never prose or
+   canon directly.
 6. **Semver per work** (DR-0004). MAJOR structural break · MINOR new or
    rewritten scenes · PATCH line fixes. Git tags `<work>/vX.Y.Z`.
 7. **WIP limit.** At most 3 scenes per work in `drafted` awaiting revision.
@@ -93,7 +97,7 @@ affected layers together. Template changes are process changes → DR.
     binds always; `works/<work>/style.md` owns that work's aesthetics.
     Copy passes load both.
 12. **Retros.** Each `/release` scaffolds a retro in `process/retros/`;
-    findings feed `process/backlog.md`. The process prunes itself.
+    findings feed `process/backlog/`. The process prunes itself.
 
 ## Decision-record discipline
 
