@@ -54,6 +54,6 @@ external materials and what they changed here.
 ## Affected Files
 | File | Changes Made | Decision ID | Author | Commit ID |
 |---|---|---|---|---|
-| [process/principles.md](../process/principles.md) | References section; section citations | 0014-1, 0014-3 | claude-fable-5 | *pending* |
-| [process/reading/authors-guild-ai-best-practices.md](../process/reading/authors-guild-ai-best-practices.md) | new reading note (guide fetched and read; alignment check included) | 0014-2, 0014-3 | claude-fable-5 | *pending* |
-| [process/backlog/0010-authors-guild-principle-proposals.md](../process/backlog/0010-authors-guild-principle-proposals.md) | four proposed principle changes filed for author decision (per 0014-2) | 0014-2 | claude-fable-5 | *pending* |
+| [process/principles.md](../process/principles.md) | References section; section citations | 0014-1, 0014-3 | claude-fable-5 | 26c9ccf |
+| [process/reading/authors-guild-ai-best-practices.md](../process/reading/authors-guild-ai-best-practices.md) | new reading note (guide fetched and read; alignment check included) | 0014-2, 0014-3 | claude-fable-5 | 26c9ccf |
+| [process/backlog/0010-authors-guild-principle-proposals.md](../process/backlog/0010-authors-guild-principle-proposals.md) | four proposed principle changes filed for author decision (per 0014-2) | 0014-2 | claude-fable-5 | 26c9ccf |
