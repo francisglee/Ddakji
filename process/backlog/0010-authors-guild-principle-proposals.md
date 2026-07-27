@@ -2,11 +2,11 @@
 type: backlog-item
 title: Principle proposals from the Authors Guild guide
 kind: question
-status: open
+status: decided
 priority: next
 created: 2026-07-26
 source: claude-fable-5 (researcher)
-resolved-by:
+resolved-by: DR-0016
 ---
 Four gaps surfaced by checking principles against the Authors Guild's
 AI Best Practices ([reading note](../reading/authors-guild-ai-best-practices.md),

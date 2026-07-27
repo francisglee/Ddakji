@@ -30,3 +30,7 @@ Procedure (vendor-neutral; any agent or human can follow it):
 7. Continuity or fact findings that exceed this scene's scope: file
    them in the work's `backlog/` (new entry) as continuity-bugs and note the
    cross-reference in the report.
+8. The continuity & facts check includes bias review (DR-0016,
+   researcher axiom 7): flag stereotype or flattening in how culture
+   and lived experience are rendered — as an observation, like
+   everything else.

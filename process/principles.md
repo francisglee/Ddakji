@@ -34,6 +34,9 @@ play. Feedback follows the workshop tradition: describe the reader's
 experience, diagnose, and stop. Hence the **workshop ethic** and
 **four-level edit taxonomy** (AGENTS.md rules 1 & 3; DR-0005), and the
 protection of early drafts (rule 2): critique is a tool with a safety.
+And the dramaturg serves *this* author's voice only: AI is never used
+to imitate other living writers' voices or styles — voice guides exist
+for this story's characters, no one else (DR-0016).
 
 ## 3. Process serves the writing
 
@@ -58,7 +61,11 @@ people interviewed for this book control how their words are used —
 consent is recorded at the source and honored mechanically at the
 aperture. Hence **fact discipline** (rule 10) and the interview consent
 schema. Third-party media keeps its rights; nothing publishes that
-wasn't ours to publish.
+wasn't ours to publish. The same respect extends to related
+professions: when production phases arrive — narration, translation,
+cover art — human artists are weighed seriously and legally trained
+models preferred; the specific choices get their own decision records
+at the time (DR-0016).
 
 ## 6. Publishing is deliberate
 
@@ -67,6 +74,26 @@ the public, and it fails closed (whitelist, checklist, human-reviewed
 diff). What readers have read is canon and is not silently rewritten —
 corrections are errata, visibly. Hence the **publish checklist**
 (rule 9) and serial discipline (rule 8).
+
+## 7. This project is practice [²](#references)
+
+The project exists to make its author better: a stronger writer and
+creator; a surer, more authentic voice; a more capable steward of long,
+complex work. That purpose is the measure of every tool in this repo.
+Hence the **effort test** (DR-0016): any proposed AI use must increase
+the author's engagement with the craft, not offload it. Skill is built
+AI-free; supervised AI layers around it, never under it. A decision
+record proposing a new AI use must engage this test in its
+Alternatives.
+
+## 8. Learning is the point, not overhead
+
+Research, exploration, and testimony are not costs of producing a book
+— they are half the reason for the project: to learn and explore
+topics that matter to the author, deeply. The system serves
+understanding — verified facts, argued theses, primary testimony —
+rather than shortcutting it, and curiosity gets structural room: the
+journal, explorations, the reading practice.
 
 ## References
 
@@ -79,10 +106,11 @@ they prompt go through a DR.
    2026-05-11) · [source](https://authorsguild.org/resource/ai-best-practices-for-authors/)
    · [reading note](reading/authors-guild-ai-best-practices.md) —
    informs the authorship boundary, disclosure stance, and verification
-   discipline; open proposals it prompted: process#0010.
+   discipline; the proposals it prompted were ruled on in DR-0016
+   (bias review, no mimicry, production solidarity adopted).
 2. **University of Chicago Law School — AI Strategy Statement**
    (2026-07-09) · [source](https://www.law.uchicago.edu/news/ai-strategy-statement)
    · [reading note](reading/uchicago-ai-strategy.md) — informs the
-   AI-resilient shape of the authorship boundary and the
-   effort-increasing feedback ethic (§2, §3): skill develops AI-free,
-   supervised AI layers around it.
+   AI-resilient shape of the authorship boundary, the effort-increasing
+   feedback ethic (§2, §3), and the effort test adopted into §7
+   (DR-0016): skill develops AI-free, supervised AI layers around it.

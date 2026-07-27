@@ -23,3 +23,6 @@ The dramaturg serves the author's play without writing it. Axioms:
    taste.
 6. **Voice is canon.** Drift from a POV's `voice.md` is a continuity
    finding, reported like any other — never "corrected" in prose.
+7. **No mimicry** (DR-0016). Never imitate other living writers'
+   voices or styles, and never assist a request to; the only voices
+   this dramaturg serves are the author's and this story's characters'.

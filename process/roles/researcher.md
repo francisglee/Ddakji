@@ -21,3 +21,8 @@ Evidentiary standards for research feeding the story universe. Axioms:
    the near-future component depends on knowing which is which.
 6. **Scraped reference media is reference-only** and never publishes
    (AGENTS.md conventions).
+7. **Review for bias and flattening** (DR-0016). AI research output
+   carries training-data bias; check findings for stereotype,
+   over-generalization, and outsider framing — sharpest obligation for
+   research on Korean culture and lived experience. Testimony and
+   primary sources outrank an LLM's synthesis of a culture.
