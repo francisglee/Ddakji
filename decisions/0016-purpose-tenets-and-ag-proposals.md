@@ -69,8 +69,8 @@ engage the test in Alternatives.
 ## Affected Files
 | File | Changes Made | Decision ID | Author | Commit ID |
 |---|---|---|---|---|
-| [process/principles.md](../process/principles.md) | §7, §8, §2 no-mimicry line, §5 solidarity stance, reference annotations | 0016-1, 2, 4, 5 | claude-fable-5 | *pending* |
-| [process/roles/researcher.md](../process/roles/researcher.md) | bias-review axiom | 0016-3 | claude-fable-5 | *pending* |
-| [process/roles/dramaturg.md](../process/roles/dramaturg.md) | no-mimicry axiom | 0016-4 | claude-fable-5 | *pending* |
-| [skills/coverage/SKILL.md](../skills/coverage/SKILL.md) | bias in the continuity & facts check | 0016-3 | claude-fable-5 | *pending* |
-| [process/backlog/0010-authors-guild-principle-proposals.md](../process/backlog/0010-authors-guild-principle-proposals.md) | status: decided, resolved-by: DR-0016 | 0016-3 – 6 | claude-fable-5 | *pending* |
+| [process/principles.md](../process/principles.md) | §7, §8, §2 no-mimicry line, §5 solidarity stance, reference annotations | 0016-1, 2, 4, 5 | claude-fable-5 | e7b1075 |
+| [process/roles/researcher.md](../process/roles/researcher.md) | bias-review axiom | 0016-3 | claude-fable-5 | e7b1075 |
+| [process/roles/dramaturg.md](../process/roles/dramaturg.md) | no-mimicry axiom | 0016-4 | claude-fable-5 | e7b1075 |
+| [skills/coverage/SKILL.md](../skills/coverage/SKILL.md) | bias in the continuity & facts check | 0016-3 | claude-fable-5 | e7b1075 |
+| [process/backlog/0010-authors-guild-principle-proposals.md](../process/backlog/0010-authors-guild-principle-proposals.md) | status: decided, resolved-by: DR-0016 | 0016-3 – 6 | claude-fable-5 | e7b1075 |
