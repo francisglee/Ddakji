@@ -74,3 +74,4 @@ engage the test in Alternatives.
 | [process/roles/dramaturg.md](../process/roles/dramaturg.md) | no-mimicry axiom | 0016-4 | claude-fable-5 | e7b1075 |
 | [skills/coverage/SKILL.md](../skills/coverage/SKILL.md) | bias in the continuity & facts check | 0016-3 | claude-fable-5 | e7b1075 |
 | [process/backlog/0010-authors-guild-principle-proposals.md](../process/backlog/0010-authors-guild-principle-proposals.md) | status: decided, resolved-by: DR-0016 | 0016-3 – 6 | claude-fable-5 | e7b1075 |
+| [process/backlog/0011-human-authored-certification.md](../process/backlog/0011-human-authored-certification.md) | certification task split out of the decided bundle so it stays open per 0016-6 | 0016-6 | claude-fable-5 | e7b1075 + follow-up |
