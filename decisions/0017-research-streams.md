@@ -5,7 +5,7 @@ scope: process
 kind: improvement
 status: accepted
 date-created: 2026-09-26
-last-updated: 2026-09-26
+last-updated: 2026-10-11
 ---
 # 0017 — Research streams: eras, diaspora, lenses, method
 
@@ -164,12 +164,12 @@ not a deletion.
 ## Affected Files
 | File | Changes Made | Decision ID | Author | Commit ID |
 |---|---|---|---|---|
-| [templates/research-note.md](../templates/research-note.md) | `periods:`, `cohorts:`, `waves:`, `lenses:`, `streams:`; Method section; stats-metadata shape in References comment | 0017-1 – 4, 6, 8, 9 | claude-fable-5-1 | *pending* |
-| [templates/research-stream.md](../templates/research-stream.md) | new | 0017-9 | claude-fable-5-1 | *pending* |
-| [research/README.md](../research/README.md) | diaspora bin; periods, cohorts, waves, lenses registries; Streams section | 0017-1 – 4, 9 | claude-fable-5-1 | *pending* |
-| [research/streams/.gitkeep](../research/streams/.gitkeep) | new directory | 0017-9 | claude-fable-5-1 | *pending* |
-| [skills/research/SKILL.md](../skills/research/SKILL.md) | new fields, Method, two-lens rule, Korean-language check, curation re-check | 0017-4 – 8 | claude-fable-5-1 | *pending* |
-| [AGENTS.md](../AGENTS.md) | rule 10: two-lens verification; schema reference lists research-stream | 0017-5, 9 | claude-fable-5-1 | *pending* |
-| [process/playbooks/run-a-research-stream.md](../process/playbooks/run-a-research-stream.md) | new — human lane for a stream | 0017-10 | claude-fable-5-1 | *pending* |
-| [process/backlog/0012-coverage-matrix.md](../process/backlog/0012-coverage-matrix.md) | new entry — coverage matrix generator | 0017-11 | claude-fable-5-1 | *pending* |
-| [CONTRIBUTING.md](../CONTRIBUTING.md) | registry key `claude-fable-5-1` | 0017-12 | claude-fable-5-1 | *pending* |
+| [templates/research-note.md](../templates/research-note.md) | `periods:`, `cohorts:`, `waves:`, `lenses:`, `streams:`; Method section; stats-metadata shape in References comment | 0017-1 – 4, 6, 8, 9 | claude-fable-5-1 | 3bf995c |
+| [templates/research-stream.md](../templates/research-stream.md) | new | 0017-9 | claude-fable-5-1 | 3bf995c |
+| [research/README.md](../research/README.md) | diaspora bin; periods, cohorts, waves, lenses registries; Streams section | 0017-1 – 4, 9 | claude-fable-5-1 | 3bf995c |
+| [research/streams/.gitkeep](../research/streams/.gitkeep) | new directory | 0017-9 | claude-fable-5-1 | 3bf995c |
+| [skills/research/SKILL.md](../skills/research/SKILL.md) | new fields, Method, two-lens rule, Korean-language check, curation re-check | 0017-4 – 8 | claude-fable-5-1 | 3bf995c |
+| [AGENTS.md](../AGENTS.md) | rule 10: two-lens verification; schema reference lists research-stream | 0017-5, 9 | claude-fable-5-1 | 3bf995c |
+| [process/playbooks/run-a-research-stream.md](../process/playbooks/run-a-research-stream.md) | new — human lane for a stream | 0017-10 | claude-fable-5-1 | 3bf995c |
+| [process/backlog/0012-coverage-matrix.md](../process/backlog/0012-coverage-matrix.md) | new entry — coverage matrix generator | 0017-11 | claude-fable-5-1 | 3bf995c |
+| [CONTRIBUTING.md](../CONTRIBUTING.md) | registry key `claude-fable-5-1` | 0017-12 | claude-fable-5-1 | 3bf995c |
