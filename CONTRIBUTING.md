@@ -33,6 +33,9 @@ Attribution cells use these registry keys (detail lives here, once):
 - `claude-fable-5` — Anthropic Claude Fable 5 (model ID
   `claude-fable-5`), via Claude Code CLI · active 2026-07-25 – present ·
   roles per [process/roles/](process/roles/).
+- `claude-fable-5-1` — Anthropic Claude Fable 5.1 (model ID
+  `claude-fable-5-1`), via Claude Code CLI · active 2026-09-26 – present ·
+  roles per [process/roles/](process/roles/).
 
 AI entries record: exact model ID string, provider, harness, dates
 active, roles pointer — enough to re-run a comparable setup and

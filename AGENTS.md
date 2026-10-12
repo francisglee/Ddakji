@@ -91,9 +91,11 @@ affected layers together. Template changes are process changes → DR.
    blog excerpts only from already-public `publish/`, export diff
    reviewed, version tagged and changelogged.
 10. **Fact discipline.** Research claims carry
-    `unverified | verified | disputed` + sources. Interviews are
-    testimony: their claims stay `unverified` until corroborated.
-    Nothing publishes on unverified load-bearing claims.
+    `unverified | verified | disputed` + sources. `verified` requires
+    corroboration from at least two lenses (DR-0017; registry in
+    `research/README.md`). Interviews are testimony: their claims stay
+    `unverified` until corroborated. Nothing publishes on unverified
+    load-bearing claims.
 11. **Style layering.** `world/style-guide.md` (cross-work conventions)
     binds always; `works/<work>/style.md` owns that work's aesthetics.
     Copy passes load both.
@@ -152,7 +154,7 @@ its `target:` directory); the enumerable registry is
 (readme, roadmap, changelog, outline, style, principles, role, etc.)
 with no template. Key template-backed types: scene-doc, draft, event,
 artifact, character-profile, voice, faction, motif, location,
-technology, theme, research-note, exploration, interview,
+technology, theme, research-note, research-stream, exploration, interview,
 decision-record, coverage, brief, retro, reading-note, blog-post,
 playbook. Consult the template before creating an instance.
 
