@@ -106,7 +106,18 @@ via `streams:`):
 
 | Stream | Anchor |
 |---|---|
-| *(open with `templates/research-stream.md`)* | |
+| [history](streams/history.md) | world#0003, ddakji#0001 |
+| [demographics](streams/demographics.md) | ddakji#0001, world#0003 |
+| [diaspora](streams/diaspora.md) | ddakji#0001, baek-il#0002 |
+| [government-politics](streams/government-politics.md) | world#0003 |
+| [economy](streams/economy.md) | ddakji#0001 |
+| [industries](streams/industries.md) | ddakji#0001, world#0002 |
+| [climate](streams/climate.md) | world#0003 |
+| [religion](streams/religion.md) | baek-il#0002 |
+| [social-issues](streams/social-issues.md) | ddakji#0002 |
+| [language](streams/language.md) | world#0003 |
+| [technology-science](streams/technology-science.md) | world#0002 |
+| [culture](streams/culture.md) | world#0001, baek-il#0002 |
 
 ## Interviews — coverage targets
 
